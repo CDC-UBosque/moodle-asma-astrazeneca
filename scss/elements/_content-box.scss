@@ -1,0 +1,28 @@
+// -----------------------
+// banner home
+// -----------------------
+
+.curso-cc,
+#region-main .curso-cc{
+	
+	.row-fluid{
+		
+		.span12{
+			margin-bottom: 2rem;
+		}
+		
+	}
+	
+	.row-fluid{
+		
+		&:last-child{
+			
+			.span12{
+				margin-bottom: 0;
+			}
+			
+		}
+		
+	}
+	
+}

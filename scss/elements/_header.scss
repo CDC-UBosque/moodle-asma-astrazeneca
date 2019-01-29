@@ -1,0 +1,198 @@
+// -----------------------
+// banner home
+// -----------------------
+
+.curso-cc,
+#region-main .curso-cc{
+	
+	header{
+		background: none;
+		
+		.logo{
+			padding: 0;
+		}
+		
+		.menu{
+			
+			ul{
+				margin: 0;
+				
+				li{
+					
+					&:first-child{
+						
+						a{
+							padding-right: 12px;
+							&:after{
+								display: none;
+							}
+						}
+							
+					}
+					
+					a{
+						color: $color_text;
+						padding-right: 1.5rem;
+						position: relative;
+						transition: all .1s ease-in-out;
+						
+						&:after{
+							content: "";
+							background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/down.svg);
+							background-repeat: no-repeat;
+							background-position: center;
+							background-size: 11px;
+							position: absolute;
+							width: 1rem;
+							height: 1.8rem;
+							top: 0;
+							right: 0;
+						}
+						
+						&:hover{
+							background: none;
+						}
+						
+					}
+					
+					//
+					// dropdown menu
+					.dropdown-menu{
+						background: transparentize($color_white, 0.2);
+						min-width: initial;
+						box-shadow: initial;
+						border: 0px;
+						border-radius: 0;
+						padding: 0;
+						
+						li{
+							border: 0px;
+							
+							&:first-child{
+								
+								a{
+									&:after{
+										display: block;
+									}
+								}
+								
+							}
+							
+							a{
+								
+								&:after{
+								    background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/left.svg);
+								    background-repeat: no-repeat;
+								    background-position: center;
+								    background-size: 6px;
+								    opacity: 0;
+								}
+								
+								&:before{
+									width: .25rem;
+									height: .625rem;
+									margin-left: 0.2375rem;
+									margin-top: -.3125rem;
+									background: #d9338c;
+									content: '';
+									display: none;
+									position: absolute;
+									top: 50%;
+								}
+								
+								&:hover{
+									background: $color_white;
+									
+									&:after{
+										opacity: 1;
+									}
+									&:before{
+										display: block;
+									}
+								}
+								
+							}
+							
+						}
+						
+					}
+					
+				}
+				
+				li.open{
+					
+					a{
+						color: $color_text;;
+						background: none;
+						&:after{
+						  @include rotate(180deg);
+						}
+					}
+					
+				}
+				
+			}
+			
+		}
+		
+	}
+	
+	.cc-grid-banner{
+		@include display-grid;
+		grid-template-areas:
+			"topleft topright";
+		grid-template-columns: 60% 40%;
+		grid-gap: 2%;
+		padding: 0rem;
+		position: relative;
+		
+		@media (max-width: $breakpoint_2){
+			grid-template-areas:
+				"top"
+				"bottom";
+			grid-template-columns: 100%;
+		}
+		
+		.banner{
+			grid-area: topleft;
+			justify-self: stretch;
+			
+			@media (max-width: $breakpoint_2){
+				grid-area: top;
+			}
+			
+		}
+		
+		h1{
+		    grid-area: topright;
+		    padding: 1rem 1rem 1rem 0;
+		    margin: 2rem 0;
+		    line-height: 57px;
+		    
+		    @media (max-width: $breakpoint_2){
+				grid-area: bottom;
+				padding: 1rem ;
+			}
+		}
+		
+		.small{
+			margin: .7rem 3rem .7rem 0rem;
+		}
+		
+		.logo-amgen{
+			grid-area: topright;
+		    display: table;
+		    position: absolute;
+		    bottom: 1rem;
+		    right: 10%;
+		    max-width: 91px;
+		    
+		    @media (max-width: $breakpoint_2){
+				grid-area: bottom;
+				right: 2%;
+			}
+		}
+		
+	}
+	
+}

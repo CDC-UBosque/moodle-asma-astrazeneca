@@ -1,0 +1,41 @@
+// -----------------------
+// banner home
+// -----------------------
+
+.curso-cc,
+#region-main .curso-cc{
+	
+	.banner-principal{
+		@include display-grid;
+		@include grid-parent-12-columns (1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr);
+		@include grid-parent-2-rows (auto, auto);
+		grid-gap: 2%;
+		padding: 0rem;
+		position: relative;
+		background: url('https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/banners/home.png');
+		background-repeat: no-repeat;
+		
+		@media (max-width: $breakpoint_2){
+		}
+		
+		//img{
+		//	@include grid-child-column (1, 13);
+		//	@include grid-child-row (1, 1);
+		//}
+		
+		div{
+			@include grid-child-column (2, 6);
+			@include grid-child-row (1, 1);
+			background: transparentize($color_white, 0.2);
+			padding: 2rem;
+			margin: 1rem 0;
+			
+			h1{
+				color: $color_text;
+			}
+			
+		}
+		
+	}
+	
+}

@@ -1,0 +1,104 @@
+// -----------------------
+// material modulo
+// -----------------------
+
+.curso-cc,
+#region-main .curso-cc{
+	
+	.grid-cc{
+		display: grid;
+		grid-template-areas:
+			"content"
+			"content"
+			"footer";
+		grid-gap: 1rem;
+		padding: 0rem;
+		position: relative;
+		
+		//@media (max-width: $breakpoint_2){
+		//	grid-template-areas:
+		//		"content"
+		//		"footer";
+		//	grid-template-columns: 1fr;
+		//}
+		
+		.content-cc{
+			display: grid;
+			grid-template-areas:
+				"video text";
+			grid-template-columns: 70% 1fr;
+			grid-gap: 1rem;
+			
+			@media (max-width: $breakpoint_2){
+				grid-template-areas:
+					"video"
+					"text";
+				grid-template-columns: 1fr;
+			}
+			
+			.description{
+				grid-area: text;
+				position: relative;
+				align-self: end;
+				//justify-self: end;
+				
+				@media (max-width: $breakpoint_1){
+					margin-top: 1rem;
+				}
+				
+				h2{
+					//color: $color_text;
+					display: block;
+				}
+				
+				p{
+					//bottom: 0;
+					//position: absolute;	
+					
+					@media (max-width: $breakpoint_1){
+						position: initial;
+					}
+				
+				}
+				
+			}
+		
+		}
+		
+	}
+	
+	.tabbable{
+		grid-area: video;
+		width: 110%;
+		
+		@media (max-width: $breakpoint_1){
+			width: initial;
+		}
+		
+		#video{
+			margin-bottom: 0;
+		}
+		
+	}
+	
+	.tabbable-solo{
+		grid-area: video;
+		
+		#video{
+			margin-bottom: 0;
+		}
+		
+	}
+	
+	#video.topvideo{
+	    margin: 2rem auto;
+	    text-align: center;
+	    max-width: 900px;
+	}
+	
+	.botones{
+		grid-area: footer;
+		margin-bottom: 2rem;
+	}
+	
+}
