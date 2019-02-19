@@ -1,12 +1,29 @@
 /* ==========================================
 	ELEMENTOS DE MOODLE PARA ESCONDER
 ========================================== */
+body{
+	overflow-x: hidden;
+}
+
 #region-main div h2 {
 	display:none;
 }
 
+#region-main{
+	padding-bottom: 0;
+}
+
+#region-main .box.generalbox{
+	padding-bottom: 0;
+    margin-bottom: -0.2rem;
+}
+
 .box.generalbox.book_content h3,.box.generalbox.book_content h4,#region-main div h3,pageintro {
 	display:none;
+}
+
+.box.generalbox .no-overflow{
+	overflow: initial;
 }
 
 #region-main div .modified {
@@ -28,6 +45,7 @@
 .course-content ul li.section.main {
     margin-top: 0;
     border-bottom: 0;
+	padding-bottom: 0;
 }
 
 #course-block-layout aside>.block, #admin-block-layout aside>.block.estiloscompensar{
@@ -40,14 +58,15 @@
 		
 		.summary{
 			.no-overflow{
-				overflow: visible;
+				overflow: initial;
 			}
 		}
 	}
 }
 
 //ocultar barra izquierda
-#page-mod-page-view{
+#page-mod-page-view,
+#page-course-view-topics{
 	
 	#region-main{
 		width: 100%;
@@ -60,8 +79,13 @@
 	
 }
 
+.bloque-estilos-curso{
+	//display: none;
+}
+
 //mostrar barra izquierda al cambiar de rol
-#page-mod-page-view.userswitchedrole{
+#page-mod-page-view.userswitchedrole,
+#page-course-view-topics.userswitchedrole{
 	
 	#region-main{
 		width: 82.97872340425532%;

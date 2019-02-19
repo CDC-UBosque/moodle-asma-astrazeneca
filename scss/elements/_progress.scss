@@ -7,14 +7,20 @@
 	
 	.progress{
 		    max-width: 710px;
-    margin: auto;
+			margin: auto;
 		.bar{
-			
+			background: $color_lime;
+			@include prefix(box-shadow, none, webkit moz);
 		}
 	}
 	
+	.progres{
+		max-width: 710px;
+			margin: auto;
+	}
+	
 	.progress-striped .bar{
-		background-color: $color_brand_green;
+		background-color: $color_lime;
 	}
 	
 }

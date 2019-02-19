@@ -1,211 +1,315 @@
+// -----------------------
+// Lexia font
+// -----------------------
 @import url("https://use.typekit.net/rqi0bep.css");
 
+/* Heading 1 */
+$Heading-1-font-size: 42px;
+$Heading-1-line-height: 48px;
+$Heading-1-font-style: italic;
+$Heading-1-font-weight: 300;
+$Heading-1-font-family: lexia, serif;
+$Heading-1-color: $color_text;
+
+@mixin Heading-1 () {
+  font-size: $Heading-1-font-size;
+  line-height: $Heading-1-line-height;
+  font-style: $Heading-1-font-style;
+  font-weight: $Heading-1-font-weight;
+  font-family: $Heading-1-font-family;
+  color: $Heading-1-color;
+}
+
+
+/* Heading 2 */
+$Heading-2-font-size: 23px;
+$Heading-2-line-height: 29px;
+$Heading-2-font-weight: 300;
+$Heading-2-font-family: lexia, serif;
+$Heading-2-color: $color_text !important;
+
+@mixin Heading-2 () {
+  font-size: $Heading-2-font-size;
+  line-height: $Heading-2-line-height;
+  font-weight: $Heading-2-font-weight;
+  font-family: $Heading-2-font-family;
+  color: $Heading-2-color;
+}
+
+/* Heading 3 */
+$Heading-3-font-size: 18px;
+$Heading-3-line-height: 22px;
+$Heading-3-font-weight: 300;
+$Heading-3-font-family: lexia, serif;
+$Heading-3-color: $color_text;
+
+@mixin Heading-3 () {
+  font-size: $Heading-3-font-size;
+  line-height: $Heading-3-line-height;
+  font-weight: $Heading-3-font-weight;
+  font-family: $Heading-3-font-family;
+  color: $Heading-3-color;
+}
+
+/* Heading 4 */
+$Heading-4-font-size: 16px;
+$Heading-4-line-height: 20px;
+$Heading-4-font-weight: 300;
+$Heading-4-font-family: lexia, serif;
+$Heading-4-color: $color_text;
+
+@mixin Heading-4 () {
+  font-size: $Heading-4-font-size;
+  line-height: $Heading-4-line-height;
+  font-weight: $Heading-4-font-weight;
+  font-family: $Heading-4-font-family;
+  color: $Heading-4-color;
+}
+
+/* Heading 5 */
+$Heading-5-font-size: 14px;
+$Heading-5-line-height: 18px;
+$Heading-5-font-weight: 300;
+$Heading-5-font-family: lexia, serif;
+$Heading-5-color: $color_text;
+
+@mixin Heading-5 () {
+  font-size: $Heading-5-font-size;
+  line-height: $Heading-5-line-height;
+  font-weight: $Heading-5-font-weight;
+  font-family: $Heading-5-font-family;
+  color: $Heading-5-color;
+}
+
+/* Heading 6 */
+$Heading-6-font-size: 12px;
+$Heading-6-line-height: 16px;
+$Heading-6-font-weight: 300;
+$Heading-6-font-family: lexia, serif;
+$Heading-6-color: $color_text;
+
+@mixin Heading-6 () {
+  font-size: $Heading-6-font-size;
+  line-height: $Heading-6-line-height;
+  font-weight: $Heading-6-font-weight;
+  font-family: $Heading-6-font-family;
+  color: $Heading-6-color;
+}
+
+/* Label 1 */
+$Label-1-font-size: 16px;
+$Label-1-line-height: 19px;
+$Label-1-font-weight: 700;
+$Label-1-font-family: lexia, serif;
+$Label-1-color: $color_text;
+$Label-1-font-style: italic;
+
+@mixin Label-3 () {
+  font-size: $Label-1-font-size;
+  line-height: $Label-1-line-height;
+  font-weight: $Label-1-font-weight;
+  font-family: $Label-1-font-family;
+  color: $Label-1-color;
+  font-style: $Label-1-font-style;
+}
+
+/* Label 2 */
+$Label-2-font-size: 14px;
+$Label-2-line-height: 20px;
+$Label-2-font-weight: 400;
+$Label-2-font-family: lexia, serif;
+$Label-2-color: $color_text;
+$Label-2-font-style: italic;
+
+@mixin Label-2 () {
+  font-size: $Label-2-font-size;
+  line-height: $Label-2-line-height;
+  font-weight: $Label-2-font-weight;
+  font-family: $Label-2-font-family;
+  color: $Label-2-color;
+  font-style: $Label-2-font-style;
+}
+
+/* Secondary call to action */
+$Secondary-call-to-action-font-size: 16px;
+$Secondary-call-to-action-line-height: 20px;
+$Secondary-call-to-action-font-weight: 700;
+$Secondary-call-to-action-font-family: lexia, serif;
+$Secondary-call-to-action-color: $color_text;
+$Secondary-call-to-action-font-style: italic;
+
+@mixin Secondary-call-to-action () {
+  font-size: $Secondary-call-to-action-font-size;
+  line-height: $Secondary-call-to-action-line-height;
+  font-weight: $Secondary-call-to-action-font-weight;
+  font-family: $Secondary-call-to-action-font-family;
+  color: $Secondary-call-to-action-color;
+  font-style: $Secondary-call-to-action-font-style;
+}
+
+/* Menu links */
+$Menu-links-font-size: 18px;
+$Menu-links-line-height: 22px;
+$Menu-links-font-weight: 300;
+$Menu-links-font-family: lexia, serif;
+$Menu-links-color: $color_text;
+$Menu-links-font-style: initial;
+
+@mixin Menu-links () {
+  font-size: $Menu-links-font-size;
+  line-height: $Menu-links-line-height;
+  font-weight: $Menu-links-font-weight;
+  font-family: $Menu-links-font-family;
+  color: $Menu-links-color;
+  font-style: $Menu-links-font-style;
+}
+
+
+// -----------------------
+// Helvetica Neue font
+// -----------------------
+
 @font-face {
-    font-family: 'HelveticaNeueLTStd-LtCn';
-    src: url('../fonts/hinted-HelveticaNeueLTStd-LtCn.eot');
-    src: local('Helvetica Neue LT Std 47 Light Condensed'), local('HelveticaNeueLTStd-LtCn'),
-        url('../fonts/hinted-HelveticaNeueLTStd-LtCn.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/hinted-HelveticaNeueLTStd-LtCn.woff2') format('woff2'),
-        url('../fonts/hinted-HelveticaNeueLTStd-LtCn.woff') format('woff'),
-        url('../fonts/hinted-HelveticaNeueLTStd-LtCn.ttf') format('truetype'),
-        url('../fonts/hinted-HelveticaNeueLTStd-LtCn.svg#HelveticaNeueLTStd-LtCn') format('svg');
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../fonts/HelveticaNeueLTStd-Bd.eot');
+    src: url('../fonts/HelveticaNeueLTStd-Bd.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueLTStd-Bd.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueLTStd-Bd.woff') format('woff'),
+        url('../fonts/HelveticaNeueLTStd-Bd.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueLTStd-Bd.svg#HelveticaNeueLTStd-Bd') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../fonts/HelveticaNeueLTStd-Th.eot');
+    src: url('../fonts/HelveticaNeueLTStd-Th.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueLTStd-Th.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueLTStd-Th.woff') format('woff'),
+        url('../fonts/HelveticaNeueLTStd-Th.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueLTStd-Th.svg#HelveticaNeueLTStd-Th') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../fonts/HelveticaNeueLTStd-UltLt.eot');
+    src: url('../fonts/HelveticaNeueLTStd-UltLt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueLTStd-UltLt.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueLTStd-UltLt.woff') format('woff'),
+        url('../fonts/HelveticaNeueLTStd-UltLt.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueLTStd-UltLt.svg#HelveticaNeueLTStd-UltLt') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../fonts/HelveticaNeueLTStd-Md.eot');
+    src: url('../fonts/HelveticaNeueLTStd-Md.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueLTStd-Md.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueLTStd-Md.woff') format('woff'),
+        url('../fonts/HelveticaNeueLTStd-Md.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueLTStd-Md.svg#HelveticaNeueLTStd-Md') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../fonts/HelveticaNeueLTStd-Blk.eot');
+    src: url('../fonts/HelveticaNeueLTStd-Blk.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueLTStd-Blk.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueLTStd-Blk.woff') format('woff'),
+        url('../fonts/HelveticaNeueLTStd-Blk.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueLTStd-Blk.svg#HelveticaNeueLTStd-Blk') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../fonts/HelveticaNeueLTStd-Lt.eot');
+    src: url('../fonts/HelveticaNeueLTStd-Lt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueLTStd-Lt.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueLTStd-Lt.woff') format('woff'),
+        url('../fonts/HelveticaNeueLTStd-Lt.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueLTStd-Lt.svg#HelveticaNeueLTStd-Lt') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../fonts/HelveticaNeueLTStd-Roman.eot');
+    src: url('../fonts/HelveticaNeueLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueLTStd-Roman.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueLTStd-Roman.woff') format('woff'),
+        url('../fonts/HelveticaNeueLTStd-Roman.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueLTStd-Roman.svg#HelveticaNeueLTStd-Roman') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 
-@font-face {
-    font-family: 'HelveticaNeueLTStd-MdCn';
-    src: url('../fonts/hinted-HelveticaNeueLTStd-MdCn.eot');
-    src: local('Helvetica Neue LT Std 67 Medium Condensed'), local('HelveticaNeueLTStd-MdCn'),
-        url('../fonts/hinted-HelveticaNeueLTStd-MdCn.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/hinted-HelveticaNeueLTStd-MdCn.woff2') format('woff2'),
-        url('../fonts/hinted-HelveticaNeueLTStd-MdCn.woff') format('woff'),
-        url('../fonts/hinted-HelveticaNeueLTStd-MdCn.ttf') format('truetype'),
-        url('../fonts/hinted-HelveticaNeueLTStd-MdCn.svg#HelveticaNeueLTStd-MdCn') format('svg');
-    font-weight: normal;
-    font-style: normal;
+/* Body tables */
+$Body-tables-font-size: 14px;
+$Body-tables-line-height: 20px;
+$Body-tables-font-weight: 300;
+$Body-tables-font-family: Helvetica Neue LT Std, sans-serif;
+$Body-tables-color: $color_text;
+
+@mixin Body-tables () {
+  font-size: $Body-tables-font-size;
+  line-height: $Body-tables-line-height;
+  font-weight: $Body-tables-font-weight;
+  font-family: $Body-tables-font-family;
+  color: $Body-tables-color;
 }
 
-@font-face {
-    font-family: 'HelveticaNeueLTStd-Lt';
-    src: url('../fonts/hinted-HelveticaNeueLTStd-Lt.eot');
-    src: local('Helvetica Neue LT Std 45 Light'), local('HelveticaNeueLTStd-Lt'),
-        url('../fonts/hinted-HelveticaNeueLTStd-Lt.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/hinted-HelveticaNeueLTStd-Lt.woff2') format('woff2'),
-        url('../fonts/hinted-HelveticaNeueLTStd-Lt.woff') format('woff'),
-        url('../fonts/hinted-HelveticaNeueLTStd-Lt.ttf') format('truetype'),
-        url('../fonts/hinted-HelveticaNeueLTStd-Lt.svg#HelveticaNeueLTStd-Lt') format('svg');
-    font-weight: normal;
-    font-style: normal;
+/* Body copy */
+$Body-copy-font-size: 14px;
+$Body-copy-line-height: 20px;
+$Body-copy-font-weight: 300;
+$Body-copy-font-family: Helvetica Neue LT Std, sans-serif;
+$Body-copy-color: $color_text;
+
+@mixin Body-copy () {
+  font-size: $Body-copy-font-size;
+  line-height: $Body-copy-line-height;
+  font-weight: $Body-copy-font-weight;
+  font-family: $Body-copy-font-family;
+  color: $Body-copy-color;
 }
 
-@font-face {
-    font-family: 'HelveticaNeueLTStd-LtCnO';
-    src: url('../fonts/hinted-HelveticaNeueLTStd-LtCnO.eot');
-    src: local('Helvetica Neue LT Std 47 Light Condensed Oblique'), local('HelveticaNeueLTStd-LtCnO'),
-        url('../fonts/hinted-HelveticaNeueLTStd-LtCnO.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/hinted-HelveticaNeueLTStd-LtCnO.woff2') format('woff2'),
-        url('../fonts/hinted-HelveticaNeueLTStd-LtCnO.woff') format('woff'),
-        url('../fonts/hinted-HelveticaNeueLTStd-LtCnO.ttf') format('truetype'),
-        url('../fonts/hinted-HelveticaNeueLTStd-LtCnO.svg#HelveticaNeueLTStd-LtCnO') format('svg');
-    font-weight: normal;
-    font-style: normal;
+/* Label 3 */
+$Label-3-font-size: 11px;
+$Label-3-line-height: 13px;
+$Label-3-font-weight: 500;
+$Label-3-font-family: HelveticaNeueLTStd-Lt, sans-serif;
+$Label-3-color: $color_text;
+
+@mixin Label-3 () {
+  font-size: $Label-3-font-size;
+  line-height: $Label-3-line-height;
+  font-weight: $Label-3-font-weight;
+  font-family: $Label-3-font-family;
+  color: $Label-3-color;
 }
 
-@font-face {
-    font-family: 'MyriadPro-BlackCondIt';
-    src: url('../fonts/hinted-MyriadPro-BlackCondIt.eot');
-    src: local('Myriad Pro Black Condensed Italic'), local('MyriadPro-BlackCondIt'),
-        url('../fonts/hinted-MyriadPro-BlackCondIt.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/hinted-MyriadPro-BlackCondIt.woff2') format('woff2'),
-        url('../fonts/hinted-MyriadPro-BlackCondIt.woff') format('woff'),
-        url('../fonts/hinted-MyriadPro-BlackCondIt.ttf') format('truetype'),
-        url('../fonts/hinted-MyriadPro-BlackCondIt.svg#MyriadPro-BlackCondIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+/* Label 4 */
+$Label-4-font-size: 10px;
+$Label-4-line-height: 13px;
+$Label-4-font-weight: normal;
+$Label-4-font-family: HelveticaNeueLTStd-Lt, sans-serif;
+$Label-4-color: $color_text;
 
-@font-face {
-    font-family: "HelveticaNeueLTStd-BlkCnO";
-    src: url('../fonts/hinted-HelveticaNeueLTStd-BlkCnO.eot');
-    src: local('Helvetica Neue LT Std 97 Black Condensed Oblique'), local('HelveticaNeueLTStd-BlkCnO'),
-        url('../fonts/hinted-HelveticaNeueLTStd-BlkCnO.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/hinted-HelveticaNeueLTStd-BlkCnO.woff2') format('woff2'),
-        url('../fonts/hinted-HelveticaNeueLTStd-BlkCnO.woff') format('woff'),
-        url('../fonts/hinted-HelveticaNeueLTStd-BlkCnO.ttf') format('truetype'),
-        url('../fonts/hinted-HelveticaNeueLTStd-BlkCnO.svg#HelveticaNeueLTStd-BlkCnO') format('svg');
-    font-weight: normal;
-    font-style: normal;
+@mixin Label-4 () {
+  font-size: $Label-4-font-size;
+  line-height: $Label-4-line-height;
+  font-weight: $Label-4-font-weight;
+  font-family: $Label-4-font-family;
+  color: $Label-4-color;
 }
-
-@font-face {
-    font-family: 'HelveticaNeueLTStd-BlkCn';
-    src: url('../fonts/hinted-HelveticaNeueLTStd-BlkCn.eot');
-    src: local('Helvetica Neue LT Std 97 Black Condensed'), local('HelveticaNeueLTStd-BlkCn'),
-        url('../fonts/hinted-HelveticaNeueLTStd-BlkCn.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/hinted-HelveticaNeueLTStd-BlkCn.woff2') format('woff2'),
-        url('../fonts/hinted-HelveticaNeueLTStd-BlkCn.woff') format('woff'),
-        url('../fonts/hinted-HelveticaNeueLTStd-BlkCn.ttf') format('truetype'),
-        url('../fonts/hinted-HelveticaNeueLTStd-BlkCn.svg#HelveticaNeueLTStd-BlkCn') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MyriadPro-SemiboldCond';
-    src: url('../fonts/hinted-MyriadPro-SemiboldCond.eot');
-    src: local('Myriad Pro Semibold Condensed'), local('MyriadPro-SemiboldCond'),
-        url('../fonts/hinted-MyriadPro-SemiboldCond.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/hinted-MyriadPro-SemiboldCond.woff2') format('woff2'),
-        url('../fonts/hinted-MyriadPro-SemiboldCond.woff') format('woff'),
-        url('../fonts/hinted-MyriadPro-SemiboldCond.ttf') format('truetype'),
-        url('../fonts/hinted-MyriadPro-SemiboldCond.svg#MyriadPro-SemiboldCond') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MyriadPro-SemiCn';
-    src: url('../fonts/hinted-MyriadPro-SemiCn.eot');
-    src: local('Myriad Pro SemiCondensed'), local('MyriadPro-SemiCn'),
-        url('../fonts/hinted-MyriadPro-SemiCn.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/hinted-MyriadPro-SemiCn.woff2') format('woff2'),
-        url('../fonts/hinted-MyriadPro-SemiCn.woff') format('woff'),
-        url('../fonts/hinted-MyriadPro-SemiCn.ttf') format('truetype'),
-        url('../fonts/hinted-MyriadPro-SemiCn.svg#MyriadPro-SemiCn') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MyriadPro-SemiboldSemiExtIt';
-    src: url('../fonts/hinted-MyriadPro-SemiboldSemiExtIt.eot');
-    src: local('Myriad Pro Semibold SemiExtended Italic'), local('MyriadPro-SemiboldSemiExtIt'),
-        url('../fonts/hinted-MyriadPro-SemiboldSemiExtIt.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/hinted-MyriadPro-SemiboldSemiExtIt.woff2') format('woff2'),
-        url('../fonts/hinted-MyriadPro-SemiboldSemiExtIt.woff') format('woff'),
-        url('../fonts/hinted-MyriadPro-SemiboldSemiExtIt.ttf') format('truetype'),
-        url('../fonts/hinted-MyriadPro-SemiboldSemiExtIt.svg#MyriadPro-SemiboldSemiExtIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MyriadPro-SemiCnIt';
-    src: url('../fonts/hinted-MyriadPro-SemiCnIt.eot');
-    src: local('Myriad Pro SemiCondensed Italic'), local('MyriadPro-SemiCnIt'),
-        url('../fonts/hinted-MyriadPro-SemiCnIt.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/hinted-MyriadPro-SemiCnIt.woff2') format('woff2'),
-        url('../fonts/hinted-MyriadPro-SemiCnIt.woff') format('woff'),
-        url('../fonts/hinted-MyriadPro-SemiCnIt.ttf') format('truetype'),
-        url('../fonts/hinted-MyriadPro-SemiCnIt.svg#MyriadPro-SemiCnIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MyriadPro-CondIt';
-    src: url('../fonts/hinted-MyriadPro-CondIt.eot');
-    src: local('Myriad Pro Condensed Italic'), local('MyriadPro-CondIt'),
-        url('../fonts//hinted-MyriadPro-CondIt.eot?#iefix') format('embedded-opentype'),
-        url('../fonts//hinted-MyriadPro-CondIt.woff2') format('woff2'),
-        url('../fonts//hinted-MyriadPro-CondIt.woff') format('woff'),
-        url('../fonts//hinted-MyriadPro-CondIt.ttf') format('truetype'),
-        url('../fonts//hinted-MyriadPro-CondIt.svg#MyriadPro-CondIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MyriadPro-Semibold';
-    src: url('../fonts/hinted-MyriadPro-Semibold.eot');
-    src: local('Myriad Pro Semibold'), local('MyriadPro-Semibold'),
-        url('../fonts/hinted-MyriadPro-Semibold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/hinted-MyriadPro-Semibold.woff2') format('woff2'),
-        url('../fonts/hinted-MyriadPro-Semibold.woff') format('woff'),
-        url('../fonts/hinted-MyriadPro-Semibold.ttf') format('truetype'),
-        url('../fonts/hinted-MyriadPro-Semibold.svg#MyriadPro-Semibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MyriadPro-Light';
-    src: url('../fonts/hinted-MyriadPro-Light.eot');
-    src: local('Myriad Pro Light'), local('MyriadPro-Light'),
-        url('../fonts/hinted-MyriadPro-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/hinted-MyriadPro-Light.woff2') format('woff2'),
-        url('../fonts/hinted-MyriadPro-Light.woff') format('woff'),
-        url('../fonts/hinted-MyriadPro-Light.ttf') format('truetype'),
-        url('../fonts/hinted-MyriadPro-Light.svg#MyriadPro-Light') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MyriadPro-BoldCondIt';
-    src: url('../fonts/hinted-MyriadPro-BoldCondIt.eot');
-    src: local('Myriad Pro Bold Condensed Italic'), local('MyriadPro-BoldCondIt'),
-        url('../fonts/hinted-MyriadPro-BoldCondIt.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/hinted-MyriadPro-BoldCondIt.woff2') format('woff2'),
-        url('../fonts/hinted-MyriadPro-BoldCondIt.woff') format('woff'),
-        url('../fonts/hinted-MyriadPro-BoldCondIt.ttf') format('truetype'),
-        url('../fonts/hinted-MyriadPro-BoldCondIt.svg#MyriadPro-BoldCondIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MyriadPro-LightIt';
-    src: url('../fonts/hinted-MyriadPro-LightIt.eot');
-    src: local('Myriad Pro Light Italic'), local('MyriadPro-LightIt'),
-        url('../fonts/hinted-MyriadPro-LightIt.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/hinted-MyriadPro-LightIt.woff2') format('woff2'),
-        url('../fonts/hinted-MyriadPro-LightIt.woff') format('woff'),
-        url('../fonts/hinted-MyriadPro-LightIt.ttf') format('truetype'),
-        url('../fonts/hinted-MyriadPro-LightIt.svg#MyriadPro-LightIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-

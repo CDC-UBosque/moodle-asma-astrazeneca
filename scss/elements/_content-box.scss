@@ -1,24 +1,61 @@
 // -----------------------
-// banner home
+// content box
 // -----------------------
 
 .curso-cc,
 #region-main .curso-cc{
+	//overflow-x: hidden;
 	
 	.row-fluid{
 		
 		.span12{
-			margin-bottom: 2rem;
+			//margin-top: 2rem;
+		}
+		
+		.content-cc{
+			//padding-bottom: 2rem;
+			
+			ol,
+			ul{
+				@include max-width;
+				padding-left: 4rem;
+				margin-bottom: 1rem;
+				
+				li{
+					padding-bottom: .5rem;
+					
+					ol,
+					ul{
+						padding-left: 1rem;
+					}
+					
+				}
+				
+				ol,
+				ul{
+					padding-left: 1rem;
+				}
+				
+			}
+			
+			.charts{
+				@include max-width;
+				height: auto;
+				min-height: 450px;
+				margin-top: 2rem;
+				margin-bottom: 2rem;
+			}
+			
 		}
 		
 	}
 	
 	.row-fluid{
 		
-		&:last-child{
+		&:first-child{
 			
 			.span12{
-				margin-bottom: 0;
+				//margin-top: 0;
 			}
 			
 		}

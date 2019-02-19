@@ -7,126 +7,317 @@
 	
 	header{
 		background: none;
+		position: sticky;
+		top: 0;
+		z-index: 9;
+		//position: relative;
+						
+						&::before,
+						&::after {
+						    content: "";
+						    background: $color_white;
+						    display: block;
+						    width: 100%;
+						    height: 100%;
+						    position: absolute;
+						    top: 0;
+						    left: 100%;
+						}
+						&::after {
+						    left: auto;
+						    right: 100%;
+						}
 		
-		.logo{
-			padding: 0;
+		@media (max-width: 991px){
+			min-height: auto;
 		}
 		
-		.menu{
+		.menu-asma{
+			@include display-flex;
+			position: sticky;
+			z-index: 9999;
+			top: 0;
 			
-			ul{
-				margin: 0;
+			.navbar{
+				float: initial;
+				width: 100%;
 				
-				li{
+				.navbar-inner{
+					border-radius: 0;
 					
-					&:first-child{
+					.container{
+						background: $color_white;
 						
-						a{
-							padding-right: 12px;
-							&:after{
+						.btn-navbar{
+							float: right;
+							background: $color_white;
+							border: $color_white;
+							width: 20px;
+							@include prefix(box-shadow, none, webkit moz);
+							@include prefix(border-radius, 0px, webkit moz);
+							border-left: 1px solid transparentize($color_platinum, 0.1);
+							margin: 0;
+							padding: 1rem;
+							
+							.icon-bar{
+								background: transparentize($color_platinum, 0.1);
+								width: 100%;
+								
+								&:nth-child(2){
+									margin-top: 5px;
+								}
+								
+								&:last-child{
+									display: none;
+								}
+								
+							}
+							
+						}
+						
+						.brand{
+							width: 100%;
+							padding: 0;
+							margin: 0;
+							
+							&:before{
 								display: none;
 							}
-						}
 							
-					}
-					
-					a{
-						color: $color_text;
-						padding-right: 1.5rem;
-						position: relative;
-						transition: all .1s ease-in-out;
-						
-						&:after{
-							content: "";
-							background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/down.svg);
-							background-repeat: no-repeat;
-							background-position: center;
-							background-size: 11px;
-							position: absolute;
-							width: 1rem;
-							height: 1.8rem;
-							top: 0;
-							right: 0;
-						}
-						
-						&:hover{
-							background: none;
-						}
-						
-					}
-					
-					//
-					// dropdown menu
-					.dropdown-menu{
-						background: transparentize($color_white, 0.2);
-						min-width: initial;
-						box-shadow: initial;
-						border: 0px;
-						border-radius: 0;
-						padding: 0;
-						
-						li{
-							border: 0px;
-							
-							&:first-child{
-								
-								a{
-									&:after{
-										display: block;
-									}
-								}
-								
+							@media (max-width: 991px){
+								max-width: 8rem;
 							}
 							
-							a{
+							.logo{
+								padding: 0;
+								margin: 0;
+							}
+							
+						}
+						
+						.nav-collapse{
+							
+							.menu{
 								
-								&:after{
-								    background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/left.svg);
-								    background-repeat: no-repeat;
-								    background-position: center;
-								    background-size: 6px;
-								    opacity: 0;
-								}
-								
-								&:before{
-									width: .25rem;
-									height: .625rem;
-									margin-left: 0.2375rem;
-									margin-top: -.3125rem;
-									background: #d9338c;
-									content: '';
-									display: none;
-									position: absolute;
-									top: 50%;
-								}
-								
-								&:hover{
-									background: $color_white;
+								ul{
+									margin: 0 0 0 1rem;
+									padding-left: 0;
 									
-									&:after{
-										opacity: 1;
+									li{
+										list-style-type: none;
+										
+										&:first-child{
+											
+											a{
+												padding-right: 12px;
+												&:after{
+													display: none;
+												}
+											}
+												
+										}
+										
+										a{
+											box-sizing: border-box;
+											@include Menu-links ();
+											padding-right: 1.5rem;
+											position: relative;
+											transition: all .1s ease-in-out;
+											padding-bottom: 1rem;
+											text-transform: none; 
+											
+											&:after{
+												content: "";
+												background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/down.svg);
+												background-repeat: no-repeat;
+												background-position: center;
+												background-size: 11px;
+												position: absolute;
+												width: 1rem;
+												height: 1.8rem;
+												top: 0;
+												right: 0;
+											}
+											
+											&:hover{
+												background: none;
+											}
+											
+										}
+										
+										//
+										// dropdown menu
+										.dropdown-menu{
+											background: transparentize($color_white, 0.2);
+											min-width: initial;
+											box-shadow: initial;
+											border: 0px;
+											border-radius: 0;
+											padding: 0;
+											margin-left: 0;
+											
+											&:before{
+												display: none;
+											}
+											
+											li{
+												border: 0px;
+												list-style-type: none;
+												padding-bottom: 0;
+												
+												&:first-child{
+													
+													a{
+														&:after{
+															display: block;
+														}
+													}
+													
+												}
+												
+												a{
+													
+													&:after{
+													    background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/right.svg);
+													    background-repeat: no-repeat;
+													    background-position: center;
+													    background-size: 6px;
+													    opacity: 0;
+													}
+													
+													&:before{
+														width: .25rem;
+														height: .625rem;
+														margin-left: 0.2375rem;
+														margin-top: -.3125rem;
+														background: #d9338c;
+														content: '';
+														display: none;
+														position: absolute;
+														top: 50%;
+													}
+													
+													&:hover{
+														background: $color_white;
+														
+														&:after{
+															opacity: 1;
+														}
+														&:before{
+															display: block;
+														}
+													}
+													
+												}
+												
+											}
+											
+										}
+										
 									}
-									&:before{
-										display: block;
+									
+									li.open{
+										
+										a{
+											color: $color_text;;
+											background: none;
+											&:after{
+											  @include prefix(transform, rotate(180deg), webkit ms);
+											}
+										}
+										
 									}
+									
 								}
 								
 							}
 							
 						}
 						
-					}
-					
-				}
-				
-				li.open{
-					
-					a{
-						color: $color_text;;
-						background: none;
-						&:after{
-						  @include rotate(180deg);
+						//
+						// responsive menu inside
+						//
+						.nav-collapse.in{
+							
+							@media (max-width: 979px){
+								width: 100%;
+								right: 0;
+								//background: transparentize($color_white, 0.2);
+								background: $color_white;
+								@include prefix(box-shadow, none, webkit moz);
+								text-align: left;
+								
+								.menu{
+									
+									ul{
+										
+										li{
+											padding: 1rem 1rem 0;
+											border-bottom: 1px solid transparentize($color_platinum, 0.6);
+											cursor: pointer;
+											
+											&:last-child{
+												border-bottom: 0px;	
+											}
+											
+											a{
+												width: 100%;
+												
+												&:before{
+													display: none;
+												}
+												
+											}
+											
+											.dropdown-menu{
+												background: transparentize($color_platinum, 0.93);
+												margin: 0 -1rem -0.2rem;
+												
+												li{
+													border-bottom: 1px solid transparentize($color_platinum, 0.6);
+													padding: 0.3rem 1rem 0.3rem 0;
+													
+													&:last-child{
+														border-bottom: 0px;	
+													}
+													
+													a{
+														@include Secondary-call-to-action ();
+														font-weight: 300;
+														
+														&:hover{
+															background: none;
+														}
+														
+														&:after{
+															opacity: 1;
+															top: 0.5rem;
+														}
+														
+													}
+													
+												}
+												
+											}
+											
+										}
+										
+										li.show{
+											
+											ul.show{
+												display: block;
+											}
+											
+										}
+										
+									}
+									
+								}
+								
+							}
+							
 						}
+						
 					}
 					
 				}

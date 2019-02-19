@@ -1,0 +1,94 @@
+// -----------------------
+// banner home
+// -----------------------
+
+.curso-cc,
+#region-main .curso-cc{
+	
+	.thumbnails.home{
+		
+		&:nth-child(odd){
+			li{
+				
+				&:nth-child(2){
+					.thumbnail{
+						> div{
+							background: $color_lime;
+						}
+					}
+				}
+				
+				&:nth-child(3){
+					.thumbnail{
+						> div{
+							background: $color_dark_blue;
+						}
+					}
+				}
+				
+			}
+		}
+		
+		&:nth-child(even){
+			li{
+				
+				&:nth-child(1){
+					.thumbnail{
+						> div{
+							background: $color_orange;
+						}
+					}
+				}
+				
+				&:nth-child(2){
+					.thumbnail{
+						> div{
+							background: $color_light_blue;
+						}
+					}
+				}
+				
+			}
+		}
+		
+		.thumbnail{
+			@include prefix(box-shadow, 0px 0px 6px transparentize($color_text, 0.8), webkit moz);
+			@include prefix(border-radius, 0px, webkit moz);
+			border: 0px;
+			padding: 1.5rem;
+			text-align: center;
+			
+			> div{
+				background: $color_principal;
+				margin: -1.5rem -1.5rem 2rem;
+				padding: 1.5rem;
+				text-align: center;
+				position: relative;
+				
+				&:after{
+					height: 10px;
+					bottom: -0.6rem;
+					content: '';
+					position: absolute;
+					width: 70%;
+					left: 15%;
+					background-color: inherit;
+				}
+				
+				h1{
+					color: $color_white;
+					margin-bottom: 0;
+				}
+				
+			}
+			
+			h2,
+			p{
+				text-align: left;
+			}
+			
+		}
+		
+	}
+	
+}

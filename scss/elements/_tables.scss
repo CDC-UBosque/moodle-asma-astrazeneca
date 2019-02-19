@@ -6,25 +6,25 @@
 #region-main .curso-cc{
 	
 	.table{
-		
-		border-top: 1px solid $color_brand_green;
-		border-bottom: 1px solid $color_brand_green;
-		padding: 1rem 0;
 		box-sizing: border-box;
-		display: block;
-		margin-top: 2rem;
+		//display: inline-table;
+		margin: 2rem auto;
+		max-width: 860px;
+		
 		
 		caption{
-			font: $font_titles $font_myr_semibold_condensed;
+			@include Secondary-call-to-action ();
+			max-width: 817px;
+			margin: 0 auto 1rem;
 		}
 		
 		thead{
 			th{
-				background: $color_principal;
+				background: $color_dark_blue;
+				@include Secondary-call-to-action ();
 				color: $color_white;
 				border-left: 1px solid $color_white;
 				border-right: 1px solid $color_white;
-				font-family: $font_myr_semibold;
 				vertical-align: middle;
 				text-align: center;
 				
@@ -42,10 +42,10 @@
 		tr{
 			
 			td{
-				border-top: 1px solid $color_principal;
-				border-bottom: 1px solid $color_principal;
-				border-left: 1px solid $color_principal;
-				border-right: 1px solid $color_principal;
+				border-top: 1px solid $color_dark_blue;
+				border-bottom: 1px solid $color_dark_blue;
+				border-left: 1px solid $color_dark_blue;
+				border-right: 1px solid $color_dark_blue;
 				font-family: $font_hel_light_cond;
 				line-height: initial;
 				text-align: center;
@@ -64,7 +64,7 @@
 			&:nth-child(odd){
 				
 				td{
-					background: $color_light_background;
+					background: transparentize($color_dark_blue, 0.8);
 				}
 				
 			}

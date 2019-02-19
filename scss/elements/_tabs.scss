@@ -5,11 +5,16 @@
 .curso-cc,
 #region-main .curso-cc{
 	
-	.grid-cc{
+	.content-cc{
+		
+		.bs-docs{
+			max-width: 817px;
+			margin: auto;
+		}
 		
 		.nav-tabs{
 
-			margin: 1.9rem 0;
+			margin: 1.9rem 0 .5rem;
 			border: none;
 			
 			li{
@@ -17,25 +22,36 @@
 				list-style-type: none;
 				
 				a{
-					
-					border: 1px solid $color_white;
-					background: $color_principal;
-					color: $color_white;
-					border-radius: 0;
-					transition: all .1s ease-in-out;
-					font-family: $font_hel_medium;
-					font-size: $font_txt;
+					border: 1px solid $color_principal;
 					
 					&:hover{
 						border: 1px solid $color_principal;
 						background: $color_white;
-						color: $color_principal;
+					}
+					
+					&:after{
+						display: none;
 					}
 					
 				}
 				
 			}
 			
+			li.active{
+				
+				a{
+					background: $color_interaction;
+					color: $color_white;
+				}
+				
+			}
+			
+		}
+		
+		.tab-content{
+			@include prefix(border-radius, 0px, webkit moz);
+			padding: 2rem;
+			border-bottom: 1px solid $color_dark_blue;
 		}
 		
 	}

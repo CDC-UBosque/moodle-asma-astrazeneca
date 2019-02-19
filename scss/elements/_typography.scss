@@ -5,17 +5,13 @@
 .curso-cc,
 #region-main .curso-cc{
 	
-	font-family: $font_hel_light;
-	font-size: $font_txt;
-	color: $color_text;
+	@include Body-copy ();
 	
 	
 	h1{
-		font-family: lexia,serif;
-		font-weight: 300;
-		font-style: italic;
-		font-size: 42px;
-		line-height: 48px;
+		@include Heading-1 ();
+		@include max-width;
+		margin-bottom: .5rem;
 		
 		@media (max-width: $breakpoint_3){
 			font-size: 2.4em;
@@ -24,53 +20,59 @@
 	}
 	
 	h2{
-		font-family: $font_hel_light;
-		display: block;
-		color: $color_text !important;
+		@include Heading-2 ();
+		@include max-width;
 		margin-bottom: .5rem;
-		margin-left: 0;
-		font-weight: 100;
+		margin-top: 1rem;
+		display: block;
 	}
 	
 	h3{
-		font-family: $font_hel_light;
-		display: block;
+		@include Heading-3 ();
+		@include max-width;
 		margin-bottom: .5rem;
-		    font-weight: 100;
+		margin-top: 1rem;
+		display: block;
 	}
 	
 	h4{
-		font-family: $font_hel_light_italic;
-		display: block;
+		@include Heading-4 ();
+		@include max-width;
 		margin-bottom: .5rem;
-		    font-weight: 100;
+		margin-top: 1rem;
 	}
 	
 	h5{
-		font-family: $font_hel_light;
-		display: block;
+		@include Heading-5 ();
+		@include max-width;
 		margin-bottom: .5rem;
-		    font-weight: 100;
+		margin-top: 1rem;
 	}
 	
 	h6{
-		font-family: $font_hel_light;
-		display: block;
+		@include Heading-6 ();
+		@include max-width;
 		margin-bottom: .5rem;
-		    font-weight: 100;
+		margin-top: 1rem;
 	}
 	
 	p{
-		font-family: $font_hel_light_cond;
-		font-size: $font_txt;
-		color: $color_text;		
-		max-width: 817px;
-		margin: auto;
+		@include Body-copy (); 
+		@include max-width;
+	}
+	
+	label-4{
+		@include Label-4 ();
+	}
+	
+	.label-text{
+		@include Secondary-call-to-action ();
 	}
 	
 	a{
-		color: $color_text;	
+		@include Secondary-call-to-action ();	
 		position: relative;
+		text-decoration: none;
 		
 		&:before{
 			height: .25rem;
@@ -82,9 +84,7 @@
 			background-color: #d9338c;
 			opacity: 0;
 			visibility: hidden;
-			-webkit-transform: scaleX(0);
-			-ms-transform: scaleX(0);
-			transform: scaleX(0);
+			@include prefix(transform, scaleX(0), webkit ms);
 			transition: all .15s ease-out;
 		}
 		
@@ -93,9 +93,7 @@
 			&:before{
 				opacity: 1;
 				visibility: visible;
-				-webkit-transform: scaleX(1);
-				-ms-transform: scaleX(1);
-				transform: scaleX(1);
+				@include prefix(transform, scaleX(1), webkit ms);
 			}
 			
 		}

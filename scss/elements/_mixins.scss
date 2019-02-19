@@ -102,48 +102,71 @@
 
 
 @mixin btn-primary{
-	background: $color-rojo-rad;
-	border-color: $color-rojo-rad;
-	display: block;
-	@include font-block-complementario-s ();
-	letter-spacing: 1.8px;
-	color: $color-blanco-rad;
-	border-radius: 0px;
-    width: 100%;
-    text-align: center;
-	padding: 0.3rem 0.7rem;
-	width: fit-content;
-	transition: all .1s ease-in-out;
 	
-	@include resets-edge-ie (display, inline-block);
-	@include resets-edge-ie (width, auto);
+	@include prefix(border-radius, 0px, webkit moz);
+	@include prefix(transition, all ease-in-out .2s, webkit moz o);
+	@include Secondary-call-to-action ();
+	background: $color_white;
+	border: 1px solid $color_white;
+	color: $color_text;
+	padding: 0.6rem 1rem;
+	text-shadow: none;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
 	
-	&:hover{
-		background: $color-blanco-rad;
-		color: $color-rojo-rad;
-		border-color: $color-rojo-rad;
+	&:after{
+		background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/right.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 6px;
+		content: "";
+		position: absolute;
+		width: 1rem;
+		height: 1.8rem;
+		top: 0.3rem;
+		right: -0.7rem;
 	}
 	
+	&:before{
+		height: 2px;
+		bottom: 0rem;
+		content: '';
+		position: absolute;
+		width: 85%;
+		left: 8%;
+		background-color: $color_text;
+		//opacity: 1;
+		//visibility: visible;
+		//@include prefix(transform, initial, webkit ms);
+	}
+	
+}
+
+@mixin max-width{
+	max-width: 817px;
+	margin: auto;
 }
 
 // ------------------------ cross browsers mixins --------------------------- //
 // --------------------------------------------------- //
 
-@mixin width-max-content{
-	width: max-content;
-	width: intrinsic;
-	width: -moz-max-content;
-	width: -webkit-max-content;
-	width: -o-max-content;
+/// Mixin to prefix a property
+/// @author Hugo Giraudel
+/// @param {String} $property - Property name
+/// @param {*} $value - Property value
+/// @param {List} $prefixes (()) - List of prefixes to print
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+ 
+  // Output standard non-prefixed declaration
+  #{$property}: $value;
 }
 
-@mixin rotate($degrees) {
-    -webkit-transform: rotate($degrees);
-    -moz-transform: rotate($degrees);
-    -ms-transform: rotate($degrees);
-    -o-transform: rotate($degrees);
-    transform: rotate($degrees);
-}
+// usage
+//@include prefix(border-radius, 0px, webkit moz);
 
 // ------------------------ Display grid columns parent cross browser settings --------------------------- //
 // --------------------------------------------------- //
