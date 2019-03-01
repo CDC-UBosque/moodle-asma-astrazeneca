@@ -1,0 +1,119 @@
+//- ---------------------------- Head html tag ------------------------------- //
+
+mixin head
+	head
+		title 7 Obras
+		//- Bootstrap css
+		link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous')
+		link(rel='stylesheet' href='css/style.css')
+		script(src='js/modernizr.custom.js')
+		script(src='js/load-html.js')
+		
+		
+//- ---------------------------- Bootstrap JS ------------------------------- //
+//- mixin js-bootstrap
+
+
+//- ---------------------------- Page Transitions JS ------------------------------- //
+mixin js-scripts-end-body
+	//- Bootstrap js
+	//- link(src='https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
+	//- link(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous')
+	//- link(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous')
+	//- Page transitions
+	link(src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+	script(src='js/jquery.dlmenu.js')
+	script(src='js/pagetransitions.js')
+	//- Menu js
+	//- script(src='js/classie.js')
+	//- script(src='js/main.js')
+	//- Load HTML js
+	//- script(src='js/load-html.js')
+	
+//- ---------------------------- Menu JS ------------------------------- //
+//- mixin js-menu
+
+	
+//- ---------------------------- Load HTML sections JS ------------------------------- //
+//- mixin js-load-section-page
+
+
+//- ---------------------------- menu ------------------------------- //
+
+//- <li data-animation="1"><a href="#">Move to left/ from right</a></li>
+//- <li data-animation="2"><a href="#">Move to right/ from left</a></li>
+//- <li data-animation="3"><a href="#">Move to top/ from bottom</a></li>
+//- <li data-animation="4"><a href="#">Move to bottom/ from top</a></li>
+
+//- mixin menu
+//- <div class="pt-triggers">
+//- 	<div id="dl-menu" class="dl-menuwrapper">
+//- 		<ul class="dl-menu">
+//- 			<li>
+//- 				<a href="#">Move</a>
+//- 				<ul>
+//- 					<li data-animation="1"><a href="#">Move to left/ from right</a></li>
+//- 					<li data-animation="2"><a href="#">Move to right/ from left</a></li>
+//- 					<li data-animation="3"><a href="#">Move to top/ from bottom</a></li>
+//- 					<li data-animation="4"><a href="#">Move to bottom/ from top</a></li>
+//- 				</ul>
+//- 			</li>
+
+mixin menu
+	div
+		.menu-wrap
+			div.pt-triggers
+				div#dl-menu.dl-menuwrapper
+					ul.dl-menu
+						li(data-animation='1')
+							a(href='#' class='title-menu'): span Obras
+						li(data-animation='1')
+							a(href='#' class='subtitle-menu'): span El formato 1
+						li(data-animation='1')
+							a(href='#' class='subtitle-menu'): span El formato comando
+						li(data-animation='1')
+							a(href='#' class='subtitle-menu'): span La nueva ola
+						li(data-animation='1')
+							a(href='#' class='subtitle-menu'): span Esperando la siguiente
+						li(data-animation='1')
+							a(href='#' class='subtitle-menu'): span No llegó la otra
+						li(data-animation='1')
+							a(href='#' class='subtitle-menu'): span Terminando la espera
+						li(data-animation='1')
+							a(href='#' class='subtitle-menu'): span Ya será la próxima						
+							
+						li(data-animation='1')
+							a(href='#' class='title-menu'): span ¿Cómo lo hicimos?
+						li(data-animation='1')
+							a(href='#' class='title-menu'): span ¿Quienes lo hicimos?
+						li(data-animation='1')
+							a(href='#' class='title-menu'): span Hablemos
+						
+			button(class='close-button' id='close-button') Close Menu
+			
+		button(class='menu-button' id='open-button') Open Menu
+		
+
+//- ---------------------------- footer ------------------------------- //
+mixin footer
+	//- Footer content	
+	footer.home
+		//- Left elements
+		div
+			a(href='#') 
+				span Inicio
+			a(href='#') 
+				span Acerca de la facultad de diseño y comunicación
+			a(href='#') 
+				span Masdlab
+			a(href='#') 
+				span Centro de diseño
+				
+		div
+			p FACULTAD DE DISEÑO Y COMUNICACIÓN UNIVERSIDAD EL BOSQUE  ·  Edificio Fundadores Av. Cra 9 No. 131 A - 02 · Línea Gratuita 018000 113033 · PBX (571) 6489000
+			a(href='../index.html')
+				img(src="images/svg/facebook-white.svg" alt="Facebook")
+			a(href='../index.html')
+				img(src="images/svg/instagram-white.svg" alt="Instagram")
+			a(href='../index.html')
+				img(src="images/svg/twitter-white.svg" alt="Twitter")

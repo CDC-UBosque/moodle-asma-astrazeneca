@@ -1,3 +1,1431 @@
-@import url("https://use.typekit.net/rqi0bep.css");@font-face{font-family:'Helvetica Neue LT Std';src:url("../fonts/HelveticaNeueLTStd-Bd.eot");src:url("../fonts/HelveticaNeueLTStd-Bd.eot?#iefix") format("embedded-opentype"),url("../fonts/HelveticaNeueLTStd-Bd.woff2") format("woff2"),url("../fonts/HelveticaNeueLTStd-Bd.woff") format("woff"),url("../fonts/HelveticaNeueLTStd-Bd.ttf") format("truetype"),url("../fonts/HelveticaNeueLTStd-Bd.svg#HelveticaNeueLTStd-Bd") format("svg");font-weight:bold;font-style:normal}@font-face{font-family:'Helvetica Neue LT Std';src:url("../fonts/HelveticaNeueLTStd-Th.eot");src:url("../fonts/HelveticaNeueLTStd-Th.eot?#iefix") format("embedded-opentype"),url("../fonts/HelveticaNeueLTStd-Th.woff2") format("woff2"),url("../fonts/HelveticaNeueLTStd-Th.woff") format("woff"),url("../fonts/HelveticaNeueLTStd-Th.ttf") format("truetype"),url("../fonts/HelveticaNeueLTStd-Th.svg#HelveticaNeueLTStd-Th") format("svg");font-weight:100;font-style:normal}@font-face{font-family:'Helvetica Neue LT Std';src:url("../fonts/HelveticaNeueLTStd-UltLt.eot");src:url("../fonts/HelveticaNeueLTStd-UltLt.eot?#iefix") format("embedded-opentype"),url("../fonts/HelveticaNeueLTStd-UltLt.woff2") format("woff2"),url("../fonts/HelveticaNeueLTStd-UltLt.woff") format("woff"),url("../fonts/HelveticaNeueLTStd-UltLt.ttf") format("truetype"),url("../fonts/HelveticaNeueLTStd-UltLt.svg#HelveticaNeueLTStd-UltLt") format("svg");font-weight:200;font-style:normal}@font-face{font-family:'Helvetica Neue LT Std';src:url("../fonts/HelveticaNeueLTStd-Md.eot");src:url("../fonts/HelveticaNeueLTStd-Md.eot?#iefix") format("embedded-opentype"),url("../fonts/HelveticaNeueLTStd-Md.woff2") format("woff2"),url("../fonts/HelveticaNeueLTStd-Md.woff") format("woff"),url("../fonts/HelveticaNeueLTStd-Md.ttf") format("truetype"),url("../fonts/HelveticaNeueLTStd-Md.svg#HelveticaNeueLTStd-Md") format("svg");font-weight:500;font-style:normal}@font-face{font-family:'Helvetica Neue LT Std';src:url("../fonts/HelveticaNeueLTStd-Blk.eot");src:url("../fonts/HelveticaNeueLTStd-Blk.eot?#iefix") format("embedded-opentype"),url("../fonts/HelveticaNeueLTStd-Blk.woff2") format("woff2"),url("../fonts/HelveticaNeueLTStd-Blk.woff") format("woff"),url("../fonts/HelveticaNeueLTStd-Blk.ttf") format("truetype"),url("../fonts/HelveticaNeueLTStd-Blk.svg#HelveticaNeueLTStd-Blk") format("svg");font-weight:900;font-style:normal}@font-face{font-family:'Helvetica Neue LT Std';src:url("../fonts/HelveticaNeueLTStd-Lt.eot");src:url("../fonts/HelveticaNeueLTStd-Lt.eot?#iefix") format("embedded-opentype"),url("../fonts/HelveticaNeueLTStd-Lt.woff2") format("woff2"),url("../fonts/HelveticaNeueLTStd-Lt.woff") format("woff"),url("../fonts/HelveticaNeueLTStd-Lt.ttf") format("truetype"),url("../fonts/HelveticaNeueLTStd-Lt.svg#HelveticaNeueLTStd-Lt") format("svg");font-weight:300;font-style:normal}@font-face{font-family:'Helvetica Neue LT Std';src:url("../fonts/HelveticaNeueLTStd-Roman.eot");src:url("../fonts/HelveticaNeueLTStd-Roman.eot?#iefix") format("embedded-opentype"),url("../fonts/HelveticaNeueLTStd-Roman.woff2") format("woff2"),url("../fonts/HelveticaNeueLTStd-Roman.woff") format("woff"),url("../fonts/HelveticaNeueLTStd-Roman.ttf") format("truetype"),url("../fonts/HelveticaNeueLTStd-Roman.svg#HelveticaNeueLTStd-Roman") format("svg");font-weight:normal;font-style:normal}body{overflow-x:hidden}#region-main div h2{display:none}#region-main{padding-bottom:0}#region-main .box.generalbox{padding-bottom:0;margin-bottom:-0.2rem}.box.generalbox.book_content h3,.box.generalbox.book_content h4,#region-main div h3,pageintro{display:none}.box.generalbox .no-overflow{overflow:initial}#region-main div .modified{display:none}.navtop{display:none}.navbottom{display:none}#region-main .completionprogress{float:none}.course-content ul li.section.main{margin-top:0;border-bottom:0;padding-bottom:0}#course-block-layout aside>.block,#admin-block-layout aside>.block.estiloscompensar{display:none}.course-content .content{margin:0}.course-content .content .summary .no-overflow{overflow:initial}#page-mod-page-view #region-main,#page-course-view-topics #region-main{width:100%}#page-mod-page-view #admin-block-layout,#page-mod-page-view #course-block-layout,#page-course-view-topics #admin-block-layout,#page-course-view-topics #course-block-layout{display:none}#page-mod-page-view.userswitchedrole #region-main,#page-course-view-topics.userswitchedrole #region-main{width:82.97872340425532%}@media (min-width: 1350px){#page-mod-page-view.userswitchedrole #region-main,#page-course-view-topics.userswitchedrole #region-main{width:82.90598290598291%}}@media (max-width: 979px) and (min-width: 768px){#page-mod-page-view.userswitchedrole #region-main,#page-course-view-topics.userswitchedrole #region-main{width:82.87292817679558%}}@media (max-width: 767px){#page-mod-page-view.userswitchedrole #region-main,#page-course-view-topics.userswitchedrole #region-main{width:100%}}#page-mod-page-view.userswitchedrole #admin-block-layout,#page-mod-page-view.userswitchedrole #course-block-layout,#page-course-view-topics.userswitchedrole #admin-block-layout,#page-course-view-topics.userswitchedrole #course-block-layout{display:block}.curso-cc header,#region-main .curso-cc header{background:none;position:sticky;top:0;z-index:9}.curso-cc header::before,.curso-cc header::after,#region-main .curso-cc header::before,#region-main .curso-cc header::after{content:"";background:#fff;display:block;width:100%;height:100%;position:absolute;top:0;left:100%}.curso-cc header::after,#region-main .curso-cc header::after{left:auto;right:100%}@media (max-width: 991px){.curso-cc header,#region-main .curso-cc header{min-height:auto}}.curso-cc header .menu-asma,#region-main .curso-cc header .menu-asma{position:sticky;z-index:9999;top:0}@supports (display: flex){.curso-cc header .menu-asma,#region-main .curso-cc header .menu-asma{display:flex}}@supports (-ms-ime-align: auto){.curso-cc header .menu-asma,#region-main .curso-cc header .menu-asma{display:flex}}@supports not (display: flex){.curso-cc header .menu-asma,#region-main .curso-cc header .menu-asma{display:inline-block;width:100%}}@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){.curso-cc header .menu-asma,#region-main .curso-cc header .menu-asma{display:-ms-grid;width:100%}}.curso-cc header .menu-asma .navbar,#region-main .curso-cc header .menu-asma .navbar{float:initial;width:100%}.curso-cc header .menu-asma .navbar .navbar-inner,#region-main .curso-cc header .menu-asma .navbar .navbar-inner{border-radius:0}.curso-cc header .menu-asma .navbar .navbar-inner .container,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container{background:#fff}.curso-cc header .menu-asma .navbar .navbar-inner .container .btn-navbar,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .btn-navbar{float:right;background:#fff;border:#fff;width:20px;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;border-left:1px solid rgba(157,176,172,0.9);margin:0;padding:1rem}.curso-cc header .menu-asma .navbar .navbar-inner .container .btn-navbar .icon-bar,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .btn-navbar .icon-bar{background:rgba(157,176,172,0.9);width:100%}.curso-cc header .menu-asma .navbar .navbar-inner .container .btn-navbar .icon-bar:nth-child(2),#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .btn-navbar .icon-bar:nth-child(2){margin-top:5px}.curso-cc header .menu-asma .navbar .navbar-inner .container .btn-navbar .icon-bar:last-child,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .btn-navbar .icon-bar:last-child{display:none}.curso-cc header .menu-asma .navbar .navbar-inner .container .brand,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .brand{width:100%;padding:0;margin:0}.curso-cc header .menu-asma .navbar .navbar-inner .container .brand:before,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .brand:before{display:none}@media (max-width: 991px){.curso-cc header .menu-asma .navbar .navbar-inner .container .brand,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .brand{max-width:8rem}}.curso-cc header .menu-asma .navbar .navbar-inner .container .brand .logo,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .brand .logo{padding:0;margin:0}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul{margin:0 0 0 1rem;padding-left:0}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li{list-style-type:none}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li:first-child a,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li:first-child a{padding-right:12px}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li:first-child a:after,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li:first-child a:after{display:none}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li a,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li a{box-sizing:border-box;font-size:18px;line-height:22px;font-weight:300;font-family:lexia,serif;color:#3C4242;font-style:initial;padding-right:1.5rem;position:relative;transition:all 0.1s ease-in-out;padding-bottom:1rem;text-transform:none}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li a:after,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li a:after{content:"";background:url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/down.svg);background-repeat:no-repeat;background-position:center;background-size:11px;position:absolute;width:1rem;height:1.8rem;top:0;right:0}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li a:hover,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li a:hover{background:none}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu{background:rgba(255,255,255,0.8);min-width:initial;box-shadow:initial;border:0px;border-radius:0;padding:0;margin-left:0}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu:before,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu:before{display:none}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li{border:0px;list-style-type:none;padding-bottom:0}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li:first-child a:after,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li:first-child a:after{display:block}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:after,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:after{background:url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/right.svg);background-repeat:no-repeat;background-position:center;background-size:6px;opacity:0}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:before,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:before{width:.25rem;height:.625rem;margin-left:0.2375rem;margin-top:-.3125rem;background:#d9338c;content:'';display:none;position:absolute;top:50%}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:hover,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:hover{background:#fff}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:hover:after,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:hover:after{opacity:1}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:hover:before,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:hover:before{display:block}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li.open a,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li.open a{color:#3C4242;background:none}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li.open a:after,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li.open a:after{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}@media (max-width: 979px){.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in{width:100%;right:0;background:#fff;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;text-align:left}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li{padding:1rem 1rem 0;border-bottom:1px solid rgba(157,176,172,0.4);cursor:pointer}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li:last-child,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li:last-child{border-bottom:0px}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li a,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li a{width:100%}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li a:before,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li a:before{display:none}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu{background:rgba(157,176,172,0.07);margin:0 -1rem -0.2rem}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li{border-bottom:1px solid rgba(157,176,172,0.4);padding:0.3rem 1rem 0.3rem 0}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li:last-child,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li:last-child{border-bottom:0px}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li a,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li a{font-size:16px;line-height:20px;font-weight:700;font-family:lexia,serif;color:#3C4242;font-style:italic;font-weight:300}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li a:hover,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li a:hover{background:none}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li a:after,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li a:after{opacity:1;top:0.5rem}.curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li.show ul.show,#region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li.show ul.show{display:block}}.curso-cc .cc-grid-banner,#region-main .curso-cc .cc-grid-banner{grid-template-areas:"topleft topright";grid-template-columns:60% 40%;grid-gap:2%;padding:0rem;position:relative}@supports (display: grid){.curso-cc .cc-grid-banner,#region-main .curso-cc .cc-grid-banner{display:grid}}@supports (-ms-ime-align: auto){.curso-cc .cc-grid-banner,#region-main .curso-cc .cc-grid-banner{display:grid}}@supports not (display: grid){.curso-cc .cc-grid-banner,#region-main .curso-cc .cc-grid-banner{display:inline-block}}@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){.curso-cc .cc-grid-banner,#region-main .curso-cc .cc-grid-banner{display:-ms-grid}}@media (max-width: 780px){.curso-cc .cc-grid-banner,#region-main .curso-cc .cc-grid-banner{grid-template-areas:"top" 				"bottom";grid-template-columns:100%}}.curso-cc .cc-grid-banner .banner,#region-main .curso-cc .cc-grid-banner .banner{grid-area:topleft;justify-self:stretch}@media (max-width: 780px){.curso-cc .cc-grid-banner .banner,#region-main .curso-cc .cc-grid-banner .banner{grid-area:top}}.curso-cc .cc-grid-banner h1,#region-main .curso-cc .cc-grid-banner h1{grid-area:topright;padding:1rem 1rem 1rem 0;margin:2rem 0;line-height:57px}@media (max-width: 780px){.curso-cc .cc-grid-banner h1,#region-main .curso-cc .cc-grid-banner h1{grid-area:bottom;padding:1rem}}.curso-cc .cc-grid-banner .small,#region-main .curso-cc .cc-grid-banner .small{margin:0.7rem 3rem 0.7rem 0rem}.curso-cc .cc-grid-banner .logo-amgen,#region-main .curso-cc .cc-grid-banner .logo-amgen{grid-area:topright;display:table;position:absolute;bottom:1rem;right:10%;max-width:91px}@media (max-width: 780px){.curso-cc .cc-grid-banner .logo-amgen,#region-main .curso-cc .cc-grid-banner .logo-amgen{grid-area:bottom;right:2%}}.curso-cc .banner-principal,#region-main .curso-cc .banner-principal{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;-ms-grid-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;grid-template-rows:auto;-ms-grid-rows:auto;grid-gap:2%;padding:0rem;position:relative;background:url("https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/banners/home.png");background-repeat:no-repeat;width:100%;margin-bottom:3rem}@supports (display: grid){.curso-cc .banner-principal,#region-main .curso-cc .banner-principal{display:grid}}@supports (-ms-ime-align: auto){.curso-cc .banner-principal,#region-main .curso-cc .banner-principal{display:grid}}@supports not (display: grid){.curso-cc .banner-principal,#region-main .curso-cc .banner-principal{display:inline-block}}@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){.curso-cc .banner-principal,#region-main .curso-cc .banner-principal{display:-ms-grid}}.curso-cc .banner-principal div,#region-main .curso-cc .banner-principal div{grid-column:2/6;-ms-grid-column:2;-ms-grid-column-span:4;grid-row:1/1;-ms-grid-row:1;-ms-grid-row-span:0;background:rgba(255,255,255,0.8);padding:2rem;margin:1rem 0}@media (max-width: 1000px){.curso-cc .banner-principal div,#region-main .curso-cc .banner-principal div{grid-column:2/8;-ms-grid-column:2;-ms-grid-column-span:6}}@media (max-width: 780px){.curso-cc .banner-principal div,#region-main .curso-cc .banner-principal div{grid-column:2/10;-ms-grid-column:2;-ms-grid-column-span:8}}@media (max-width: 780px){.curso-cc .banner-principal div,#region-main .curso-cc .banner-principal div{grid-column:2/12;-ms-grid-column:2;-ms-grid-column-span:10}}.curso-cc .banner-principal div h1,#region-main .curso-cc .banner-principal div h1{color:#3C4242}.curso-cc .banner-interno,#region-main .curso-cc .banner-interno{text-align:center;margin-bottom:3rem}.curso-cc .banner-interno div[class*="mod-"],#region-main .curso-cc .banner-interno div[class*="mod-"]{padding:4rem 2rem}.curso-cc .banner-interno .mod-0,#region-main .curso-cc .banner-interno .mod-0{background:#830051}.curso-cc .banner-interno .mod-0 h1,#region-main .curso-cc .banner-interno .mod-0 h1{color:#fff}.curso-cc .banner-interno .mod-0 h1:last-child,#region-main .curso-cc .banner-interno .mod-0 h1:last-child{margin-bottom:0}.curso-cc .banner-interno .mod-1,#region-main .curso-cc .banner-interno .mod-1{background:#C4D600}.curso-cc .banner-interno .mod-1 h1,#region-main .curso-cc .banner-interno .mod-1 h1{color:#fff}.curso-cc .banner-interno .mod-1 h1:last-child,#region-main .curso-cc .banner-interno .mod-1 h1:last-child{margin-bottom:0}.curso-cc .banner-interno .mod-2,#region-main .curso-cc .banner-interno .mod-2{background:#003865}.curso-cc .banner-interno .mod-2 h1,#region-main .curso-cc .banner-interno .mod-2 h1{color:#fff}.curso-cc .banner-interno .mod-2 h1:last-child,#region-main .curso-cc .banner-interno .mod-2 h1:last-child{margin-bottom:0}.curso-cc .thumbnails.home:nth-child(odd) li:nth-child(2) .thumbnail>div,#region-main .curso-cc .thumbnails.home:nth-child(odd) li:nth-child(2) .thumbnail>div{background:#C4D600}.curso-cc .thumbnails.home:nth-child(odd) li:nth-child(3) .thumbnail>div,#region-main .curso-cc .thumbnails.home:nth-child(odd) li:nth-child(3) .thumbnail>div{background:#003865}.curso-cc .thumbnails.home:nth-child(even) li:nth-child(1) .thumbnail>div,#region-main .curso-cc .thumbnails.home:nth-child(even) li:nth-child(1) .thumbnail>div{background:#F0AB00}.curso-cc .thumbnails.home:nth-child(even) li:nth-child(2) .thumbnail>div,#region-main .curso-cc .thumbnails.home:nth-child(even) li:nth-child(2) .thumbnail>div{background:#68D2DF}.curso-cc .thumbnails.home .thumbnail,#region-main .curso-cc .thumbnails.home .thumbnail{-webkit-box-shadow:0px 0px 6px rgba(60,66,66,0.2);-moz-box-shadow:0px 0px 6px rgba(60,66,66,0.2);box-shadow:0px 0px 6px rgba(60,66,66,0.2);-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;border:0px;padding:1.5rem;text-align:center}.curso-cc .thumbnails.home .thumbnail>div,#region-main .curso-cc .thumbnails.home .thumbnail>div{background:#830051;margin:-1.5rem -1.5rem 2rem;padding:1.5rem;text-align:center;position:relative}.curso-cc .thumbnails.home .thumbnail>div:after,#region-main .curso-cc .thumbnails.home .thumbnail>div:after{height:10px;bottom:-0.6rem;content:'';position:absolute;width:70%;left:15%;background-color:inherit}.curso-cc .thumbnails.home .thumbnail>div h1,#region-main .curso-cc .thumbnails.home .thumbnail>div h1{color:#fff;margin-bottom:0}.curso-cc .thumbnails.home .thumbnail h2,.curso-cc .thumbnails.home .thumbnail p,#region-main .curso-cc .thumbnails.home .thumbnail h2,#region-main .curso-cc .thumbnails.home .thumbnail p{text-align:left}.curso-cc #video .embed-container,#region-main .curso-cc #video .embed-container{position:relative;padding-bottom:72.25%;height:0;overflow:hidden;max-width:100%}.curso-cc #video .embed-container-2,#region-main .curso-cc #video .embed-container-2{position:relative;padding-bottom:57.25%;height:0;overflow:hidden;max-width:100%}.curso-cc #video .embed-container iframe,.curso-cc #video .embed-container object,.curso-cc #video .embed-container embed,#region-main .curso-cc #video .embed-container iframe,#region-main .curso-cc #video .embed-container object,#region-main .curso-cc #video .embed-container embed{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.curso-cc #video .embed-container-2 iframe,.curso-cc #video .embed-container-2 object,.curso-cc #video .embed-container-2 embed,#region-main .curso-cc #video .embed-container-2 iframe,#region-main .curso-cc #video .embed-container-2 object,#region-main .curso-cc #video .embed-container-2 embed{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.curso-cc #video .embed-container iframe,#region-main .curso-cc #video .embed-container iframe{min-height:600px}@media (max-width: 767px){.curso-cc .content-cc .video-cc,#region-main .curso-cc .content-cc .video-cc{display:inline-block}}.curso-cc,#region-main .curso-cc{font-size:14px;line-height:20px;font-weight:300;font-family:Helvetica Neue LT Std,sans-serif;color:#3C4242}.curso-cc h1,#region-main .curso-cc h1{font-size:42px;line-height:48px;font-style:italic;font-weight:300;font-family:lexia,serif;color:#3C4242;max-width:817px;margin:auto;margin-bottom:.5rem}@media (max-width: 550px){.curso-cc h1,#region-main .curso-cc h1{font-size:2.4em;line-height:1em}}.curso-cc h2,#region-main .curso-cc h2{font-size:23px;line-height:29px;font-weight:300;font-family:lexia,serif;color:#3C4242 !important;max-width:817px;margin:auto;margin-bottom:.5rem;margin-top:1rem;display:block}.curso-cc h3,#region-main .curso-cc h3{font-size:18px;line-height:22px;font-weight:300;font-family:lexia,serif;color:#3C4242;max-width:817px;margin:auto;margin-bottom:.5rem;margin-top:1rem;display:block}.curso-cc h4,#region-main .curso-cc h4{font-size:16px;line-height:20px;font-weight:300;font-family:lexia,serif;color:#3C4242;max-width:817px;margin:auto;margin-bottom:.5rem;margin-top:1rem}.curso-cc h5,#region-main .curso-cc h5{font-size:14px;line-height:18px;font-weight:300;font-family:lexia,serif;color:#3C4242;max-width:817px;margin:auto;margin-bottom:.5rem;margin-top:1rem}.curso-cc h6,#region-main .curso-cc h6{font-size:12px;line-height:16px;font-weight:300;font-family:lexia,serif;color:#3C4242;max-width:817px;margin:auto;margin-bottom:.5rem;margin-top:1rem}.curso-cc p,#region-main .curso-cc p{font-size:14px;line-height:20px;font-weight:300;font-family:Helvetica Neue LT Std,sans-serif;color:#3C4242;max-width:817px;margin:auto}.curso-cc label-4,#region-main .curso-cc label-4{font-size:10px;line-height:13px;font-weight:normal;font-family:HelveticaNeueLTStd-Lt,sans-serif;color:#3C4242}.curso-cc .label-text,#region-main .curso-cc .label-text{font-size:16px;line-height:20px;font-weight:700;font-family:lexia,serif;color:#3C4242;font-style:italic}.curso-cc a,#region-main .curso-cc a{font-size:16px;line-height:20px;font-weight:700;font-family:lexia,serif;color:#3C4242;font-style:italic;position:relative;text-decoration:none}.curso-cc a:before,#region-main .curso-cc a:before{height:.25rem;bottom:-.25rem;content:'';position:absolute;width:100%;left:0;background-color:#d9338c;opacity:0;visibility:hidden;-webkit-transform:scaleX(0);-ms-transform:scaleX(0);transform:scaleX(0);transition:all 0.15s ease-out}.curso-cc a:hover:before,#region-main .curso-cc a:hover:before{opacity:1;visibility:visible;-webkit-transform:scaleX(1);-ms-transform:scaleX(1);transform:scaleX(1)}.curso-cc .footer,#region-main .curso-cc .footer{background:none;margin:auto;text-align:center}.curso-cc .footer div,#region-main .curso-cc .footer div{display:inline-block;margin-right:1rem;vertical-align:top}.curso-cc .footer div:last-child,#region-main .curso-cc .footer div:last-child{margin-right:0}.curso-cc .footer div:nth-child(n+2),#region-main .curso-cc .footer div:nth-child(n+2){padding:1rem}.curso-cc .legal-footer,#region-main .curso-cc .legal-footer{background:rgba(157,176,172,0.2);text-align:center;position:relative;padding:2rem}.curso-cc .legal-footer::before,.curso-cc .legal-footer::after,#region-main .curso-cc .legal-footer::before,#region-main .curso-cc .legal-footer::after{content:"";background:rgba(157,176,172,0.2);display:block;width:100%;height:100%;position:absolute;top:0;left:100%}.curso-cc .legal-footer::after,#region-main .curso-cc .legal-footer::after{left:auto;right:100%}.curso-cc .legal-footer p,#region-main .curso-cc .legal-footer p{text-align:center;padding-bottom:0}.curso-cc .row-fluid .content-cc ol,.curso-cc .row-fluid .content-cc ul,#region-main .curso-cc .row-fluid .content-cc ol,#region-main .curso-cc .row-fluid .content-cc ul{max-width:817px;margin:auto;padding-left:4rem;margin-bottom:1rem}.curso-cc .row-fluid .content-cc ol li,.curso-cc .row-fluid .content-cc ul li,#region-main .curso-cc .row-fluid .content-cc ol li,#region-main .curso-cc .row-fluid .content-cc ul li{padding-bottom:.5rem}.curso-cc .row-fluid .content-cc ol li ol,.curso-cc .row-fluid .content-cc ol li ul,.curso-cc .row-fluid .content-cc ul li ol,.curso-cc .row-fluid .content-cc ul li ul,#region-main .curso-cc .row-fluid .content-cc ol li ol,#region-main .curso-cc .row-fluid .content-cc ol li ul,#region-main .curso-cc .row-fluid .content-cc ul li ol,#region-main .curso-cc .row-fluid .content-cc ul li ul{padding-left:1rem}.curso-cc .row-fluid .content-cc ol ol,.curso-cc .row-fluid .content-cc ol ul,.curso-cc .row-fluid .content-cc ul ol,.curso-cc .row-fluid .content-cc ul ul,#region-main .curso-cc .row-fluid .content-cc ol ol,#region-main .curso-cc .row-fluid .content-cc ol ul,#region-main .curso-cc .row-fluid .content-cc ul ol,#region-main .curso-cc .row-fluid .content-cc ul ul{padding-left:1rem}.curso-cc .row-fluid .content-cc .charts,#region-main .curso-cc .row-fluid .content-cc .charts{max-width:817px;margin:auto;height:auto;min-height:450px;margin-top:2rem;margin-bottom:2rem}.curso-cc .banner-video.span12,#region-main .curso-cc .banner-video.span12{margin-top:0}.curso-cc .banner-video,#region-main .curso-cc .banner-video{max-width:870px;margin:2rem auto;position:relative}@supports (display: flex){.curso-cc .banner-video,#region-main .curso-cc .banner-video{display:flex}}@supports (-ms-ime-align: auto){.curso-cc .banner-video,#region-main .curso-cc .banner-video{display:flex}}@supports not (display: flex){.curso-cc .banner-video,#region-main .curso-cc .banner-video{display:inline-block;width:100%}}@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){.curso-cc .banner-video,#region-main .curso-cc .banner-video{display:-ms-grid;width:100%}}.curso-cc .banner-video>div a,#region-main .curso-cc .banner-video>div a{display:block}.curso-cc .banner-video>div a:before,#region-main .curso-cc .banner-video>div a:before{display:none}.curso-cc .banner-video>div a:after,#region-main .curso-cc .banner-video>div a:after{content:"";background:url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/zoom.svg);background-repeat:no-repeat;background-position:center;background-size:contain;position:absolute;width:3rem;height:3rem;top:43%;right:45%;pointer-events:none;transition:all 0.2s ease-in-out}.curso-cc .banner-video>div a:hover:after,#region-main .curso-cc .banner-video>div a:hover:after{-webkit-transform:scale(1.5);-ms-transform:scale(1.5);transform:scale(1.5)}.curso-cc .banner-video>div:nth-child(2),#region-main .curso-cc .banner-video>div:nth-child(2){align-self:flex-end}.curso-cc .banner-video #video img,#region-main .curso-cc .banner-video #video img{width:100%;height:auto}.curso-cc .banner-video span:last-child,#region-main .curso-cc .banner-video span:last-child{min-height:0px}.curso-cc .banner-video .img-footer,#region-main .curso-cc .banner-video .img-footer{font-size:14px;line-height:20px;font-weight:400;font-family:lexia,serif;color:#3C4242;font-style:italic}.curso-cc .content-cc .bs-docs,#region-main .curso-cc .content-cc .bs-docs{max-width:817px;margin:auto}.curso-cc .content-cc .nav-tabs,#region-main .curso-cc .content-cc .nav-tabs{margin:1.9rem 0 0.5rem;border:none}.curso-cc .content-cc .nav-tabs li,#region-main .curso-cc .content-cc .nav-tabs li{list-style-type:none}.curso-cc .content-cc .nav-tabs li a,#region-main .curso-cc .content-cc .nav-tabs li a{border:1px solid #830051}.curso-cc .content-cc .nav-tabs li a:hover,#region-main .curso-cc .content-cc .nav-tabs li a:hover{border:1px solid #830051;background:#fff}.curso-cc .content-cc .nav-tabs li a:after,#region-main .curso-cc .content-cc .nav-tabs li a:after{display:none}.curso-cc .content-cc .nav-tabs li.active a,#region-main .curso-cc .content-cc .nav-tabs li.active a{background:#D0006F;color:#fff}.curso-cc .content-cc .tab-content,#region-main .curso-cc .content-cc .tab-content{-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;padding:2rem;border-bottom:1px solid #003865}.curso-cc .progress,#region-main .curso-cc .progress{max-width:710px;margin:auto}.curso-cc .progress .bar,#region-main .curso-cc .progress .bar{background:#C4D600;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}.curso-cc .progres,#region-main .curso-cc .progres{max-width:710px;margin:auto}.curso-cc .progress-striped .bar,#region-main .curso-cc .progress-striped .bar{background-color:#C4D600}.curso-cc .row-fluid .content-cc .material-modulo,#region-main .curso-cc .row-fluid .content-cc .material-modulo{background:#3C4242;position:relative;color:#fff;display:inline-block;padding:2rem 0 0;margin-top:3rem;width:100%}.curso-cc .row-fluid .content-cc .material-modulo::before,.curso-cc .row-fluid .content-cc .material-modulo::after,#region-main .curso-cc .row-fluid .content-cc .material-modulo::before,#region-main .curso-cc .row-fluid .content-cc .material-modulo::after{content:"";background:#3C4242;display:block;width:100%;height:100%;position:absolute;top:0;left:100%}.curso-cc .row-fluid .content-cc .material-modulo::after,#region-main .curso-cc .row-fluid .content-cc .material-modulo::after{left:auto;right:100%}.curso-cc .row-fluid .content-cc .material-modulo h1,#region-main .curso-cc .row-fluid .content-cc .material-modulo h1{color:#fff;margin:auto;max-width:860px}.curso-cc .row-fluid .content-cc .material-modulo h1 span,#region-main .curso-cc .row-fluid .content-cc .material-modulo h1 span{font-size:18px;line-height:22px;font-weight:300;font-family:lexia,serif;color:#3C4242;font-style:normal;color:#fff;display:block}.curso-cc .row-fluid .content-cc .material-modulo .thumbnails,#region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails{margin:2rem auto 0;max-width:860px;padding:0}.curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail,#region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail{padding:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;border:0px;background:#fff;text-align:center}.curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption,#region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption{padding:1.5rem 1.5rem 0.5rem}.curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption p,#region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption p{text-align:left}.curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a,#region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a{-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;-webkit-transition:all ease-in-out 0.2s;-moz-transition:all ease-in-out 0.2s;-o-transition:all ease-in-out 0.2s;transition:all ease-in-out 0.2s;font-size:16px;line-height:20px;font-weight:700;font-family:lexia,serif;color:#3C4242;font-style:italic;background:#fff;border:1px solid #fff;color:#3C4242;padding:0.6rem 1rem;text-shadow:none;text-decoration:none;display:inline-block;position:relative;padding:0.6rem 1.5rem 0.6rem 1rem}.curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a:after,#region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a:after{background:url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/right.svg);background-repeat:no-repeat;background-position:center;background-size:6px;content:"";position:absolute;width:1rem;height:1.8rem;top:0.3rem;right:-0.7rem}.curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a:before,#region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a:before{height:2px;bottom:0rem;content:'';position:absolute;width:85%;left:8%;background-color:#3C4242}.curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a:before,#region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a:before{background:#3C4242}.curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a:after,#region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a:after{right:0rem}.curso-cc .secondary-btn,#region-main .curso-cc .secondary-btn{-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;-webkit-transition:all ease-in-out 0.2s;-moz-transition:all ease-in-out 0.2s;-o-transition:all ease-in-out 0.2s;transition:all ease-in-out 0.2s;font-size:16px;line-height:20px;font-weight:700;font-family:lexia,serif;color:#3C4242;font-style:italic;background:#fff;border:1px solid #fff;color:#3C4242;padding:0.6rem 1rem;text-shadow:none;text-decoration:none;display:inline-block;position:relative}.curso-cc .secondary-btn:after,#region-main .curso-cc .secondary-btn:after{background:url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/right.svg);background-repeat:no-repeat;background-position:center;background-size:6px;content:"";position:absolute;width:1rem;height:1.8rem;top:0.3rem;right:-0.7rem}.curso-cc .secondary-btn:before,#region-main .curso-cc .secondary-btn:before{height:2px;bottom:0rem;content:'';position:absolute;width:85%;left:8%;background-color:#3C4242}.curso-cc .pager,#region-main .box.generalbox .curso-cc .pager{background:#3C4242;padding:2rem;position:relative}.curso-cc .pager::before,.curso-cc .pager::after,#region-main .box.generalbox .curso-cc .pager::before,#region-main .box.generalbox .curso-cc .pager::after{content:"";background:#3C4242;display:block;width:100%;height:100%;position:absolute;top:0;left:100%}.curso-cc .pager::after,#region-main .box.generalbox .curso-cc .pager::after{left:auto;right:100%}.curso-cc .pager li,#region-main .box.generalbox .curso-cc .pager li{display:inline-block}.curso-cc .pager li a,#region-main .box.generalbox .curso-cc .pager li a{-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;-webkit-transition:all ease-in-out 0.2s;-moz-transition:all ease-in-out 0.2s;-o-transition:all ease-in-out 0.2s;transition:all ease-in-out 0.2s;font-size:16px;line-height:20px;font-weight:700;font-family:lexia,serif;color:#3C4242;font-style:italic;background:#fff;border:1px solid #fff;color:#3C4242;padding:0.6rem 1rem;text-shadow:none;text-decoration:none;display:inline-block;position:relative}.curso-cc .pager li a:after,#region-main .box.generalbox .curso-cc .pager li a:after{background:url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/right.svg);background-repeat:no-repeat;background-position:center;background-size:6px;content:"";position:absolute;width:1rem;height:1.8rem;top:0.3rem;right:-0.7rem}.curso-cc .pager li a:before,#region-main .box.generalbox .curso-cc .pager li a:before{height:2px;bottom:0rem;content:'';position:absolute;width:85%;left:8%;background-color:#3C4242}.curso-cc .pager li.disabled a,#region-main .box.generalbox .curso-cc .pager li.disabled a{opacity:.5}.curso-cc .pager li.disabled a:before,#region-main .box.generalbox .curso-cc .pager li.disabled a:before{display:none}.curso-cc .pager .previous a,#region-main .box.generalbox .curso-cc .pager .previous a{padding:0.6rem 1rem 0.6rem 2rem}.curso-cc .pager .previous a:after,#region-main .box.generalbox .curso-cc .pager .previous a:after{background:url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/left.svg);background-repeat:no-repeat;background-position:center;background-size:6px;content:"";position:absolute;width:1rem;height:1.8rem;left:0.4rem;right:initial}.curso-cc .pager .next a,#region-main .box.generalbox .curso-cc .pager .next a{padding:0.6rem 2rem 0.6rem 1rem}.curso-cc .pager .next a:after,#region-main .box.generalbox .curso-cc .pager .next a:after{right:0.4rem}.curso-cc .table,#region-main .curso-cc .table{box-sizing:border-box;margin:2rem auto;max-width:860px}.curso-cc .table caption,#region-main .curso-cc .table caption{font-size:16px;line-height:20px;font-weight:700;font-family:lexia,serif;color:#3C4242;font-style:italic;max-width:817px;margin:0 auto 1rem}.curso-cc .table thead th,#region-main .curso-cc .table thead th{background:#003865;font-size:16px;line-height:20px;font-weight:700;font-family:lexia,serif;color:#3C4242;font-style:italic;color:#fff;border-left:1px solid #fff;border-right:1px solid #fff;vertical-align:middle;text-align:center}.curso-cc .table thead th:first-child,#region-main .curso-cc .table thead th:first-child{border-left:0px}.curso-cc .table thead th:last-child,#region-main .curso-cc .table thead th:last-child{border-right:0px}.curso-cc .table tr td,#region-main .curso-cc .table tr td{border-top:1px solid #003865;border-bottom:1px solid #003865;border-left:1px solid #003865;border-right:1px solid #003865;font-family:"HelveticaNeueLTStd-LtCn";line-height:initial;text-align:center;padding:0.5rem 0.4rem}.curso-cc .table tr td:first-child,#region-main .curso-cc .table tr td:first-child{border-left:0px}.curso-cc .table tr td:last-child,#region-main .curso-cc .table tr td:last-child{border-right:0px}.curso-cc .table tr:nth-child(odd) td,#region-main .curso-cc .table tr:nth-child(odd) td{background:rgba(0,56,101,0.2)}.curso-cc .table tr:last-child td,#region-main .curso-cc .table tr:last-child td{border-bottom:0px}.curso-cc .content-cc .resaltado-txt,#region-main .curso-cc .content-cc .resaltado-txt{max-width:710px;margin:auto;float:none;background:#9DB0AC;box-sizing:border-box;padding:1rem 2rem}.curso-cc .content-cc .resaltado-txt h2,#region-main .curso-cc .content-cc .resaltado-txt h2{font-size:23px;line-height:29px;font-weight:300;font-family:lexia,serif;color:#3C4242 !important;font-weight:200;color:#fff}.curso-cc .content-cc .resaltado-txt p,#region-main .curso-cc .content-cc .resaltado-txt p{font-size:23px;line-height:29px;font-weight:300;font-family:lexia,serif;color:#3C4242 !important;color:#fff}.curso-cc .content-cc .accordion,#region-main .curso-cc .content-cc .accordion{max-width:810px;margin:2rem auto}.curso-cc .content-cc .accordion .accordion-group,#region-main .curso-cc .content-cc .accordion .accordion-group{border:0px;border-radius:0px;margin-bottom:0;margin-top:-1px}.curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle,#region-main .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle{background:#830051;border:1px solid #830051;color:#fff;font-family:"MyriadPro-Semibold"}.curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle:hover,#region-main .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle:hover{background:#830051;color:#fff}.curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle:before,#region-main .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle:before{display:none}.curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle:after,#region-main .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle:after{content:"";background:url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/up-white.svg);background-repeat:no-repeat;background-position:center;background-size:11px;position:absolute;width:1rem;height:1.8rem;top:0.2rem;right:0.5rem}.curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed,#region-main .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed{background:#fff;border:1px solid #830051;color:#3C4242;font-family:"MyriadPro-Semibold"}.curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed:hover,#region-main .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed:hover{background:#830051;color:#fff}.curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed:before,#region-main .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed:before{display:none}.curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed:after,#region-main .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed:after{content:"";background:url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/down.svg);background-repeat:no-repeat;background-position:center;background-size:11px;position:absolute;width:1rem;height:1.8rem;top:0.2rem;right:0.5rem}.curso-cc .content-cc .accordion .accordion-group .accordion-body,#region-main .curso-cc .content-cc .accordion .accordion-group .accordion-body{background:#fff}.curso-cc .content-cc .accordion .accordion-group .accordion-body .accordion-inner,#region-main .curso-cc .content-cc .accordion .accordion-group .accordion-body .accordion-inner{display:inline-block;padding:2rem}
+@import url("https://use.typekit.net/rqi0bep.css");
+/* Heading 1 */
+/* Heading 2 */
+/* Heading 3 */
+/* Heading 4 */
+/* Heading 5 */
+/* Heading 6 */
+/* Label 1 */
+/* Label 2 */
+/* Secondary call to action */
+/* Menu links */
+@font-face {
+  font-family: 'Helvetica Neue LT Std';
+  src: url("../fonts/HelveticaNeueLTStd-Bd.eot");
+  src: url("../fonts/HelveticaNeueLTStd-Bd.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLTStd-Bd.woff2") format("woff2"), url("../fonts/HelveticaNeueLTStd-Bd.woff") format("woff"), url("../fonts/HelveticaNeueLTStd-Bd.ttf") format("truetype"), url("../fonts/HelveticaNeueLTStd-Bd.svg#HelveticaNeueLTStd-Bd") format("svg");
+  font-weight: bold;
+  font-style: normal; }
 
-/*# sourceMappingURL=../css/styles.map */
+@font-face {
+  font-family: 'Helvetica Neue LT Std';
+  src: url("../fonts/HelveticaNeueLTStd-Th.eot");
+  src: url("../fonts/HelveticaNeueLTStd-Th.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLTStd-Th.woff2") format("woff2"), url("../fonts/HelveticaNeueLTStd-Th.woff") format("woff"), url("../fonts/HelveticaNeueLTStd-Th.ttf") format("truetype"), url("../fonts/HelveticaNeueLTStd-Th.svg#HelveticaNeueLTStd-Th") format("svg");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Helvetica Neue LT Std';
+  src: url("../fonts/HelveticaNeueLTStd-UltLt.eot");
+  src: url("../fonts/HelveticaNeueLTStd-UltLt.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLTStd-UltLt.woff2") format("woff2"), url("../fonts/HelveticaNeueLTStd-UltLt.woff") format("woff"), url("../fonts/HelveticaNeueLTStd-UltLt.ttf") format("truetype"), url("../fonts/HelveticaNeueLTStd-UltLt.svg#HelveticaNeueLTStd-UltLt") format("svg");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Helvetica Neue LT Std';
+  src: url("../fonts/HelveticaNeueLTStd-Md.eot");
+  src: url("../fonts/HelveticaNeueLTStd-Md.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLTStd-Md.woff2") format("woff2"), url("../fonts/HelveticaNeueLTStd-Md.woff") format("woff"), url("../fonts/HelveticaNeueLTStd-Md.ttf") format("truetype"), url("../fonts/HelveticaNeueLTStd-Md.svg#HelveticaNeueLTStd-Md") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Helvetica Neue LT Std';
+  src: url("../fonts/HelveticaNeueLTStd-Blk.eot");
+  src: url("../fonts/HelveticaNeueLTStd-Blk.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLTStd-Blk.woff2") format("woff2"), url("../fonts/HelveticaNeueLTStd-Blk.woff") format("woff"), url("../fonts/HelveticaNeueLTStd-Blk.ttf") format("truetype"), url("../fonts/HelveticaNeueLTStd-Blk.svg#HelveticaNeueLTStd-Blk") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Helvetica Neue LT Std';
+  src: url("../fonts/HelveticaNeueLTStd-Lt.eot");
+  src: url("../fonts/HelveticaNeueLTStd-Lt.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLTStd-Lt.woff2") format("woff2"), url("../fonts/HelveticaNeueLTStd-Lt.woff") format("woff"), url("../fonts/HelveticaNeueLTStd-Lt.ttf") format("truetype"), url("../fonts/HelveticaNeueLTStd-Lt.svg#HelveticaNeueLTStd-Lt") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Helvetica Neue LT Std';
+  src: url("../fonts/HelveticaNeueLTStd-Roman.eot");
+  src: url("../fonts/HelveticaNeueLTStd-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLTStd-Roman.woff2") format("woff2"), url("../fonts/HelveticaNeueLTStd-Roman.woff") format("woff"), url("../fonts/HelveticaNeueLTStd-Roman.ttf") format("truetype"), url("../fonts/HelveticaNeueLTStd-Roman.svg#HelveticaNeueLTStd-Roman") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Body tables */
+/* Body copy */
+/* Label 3 */
+/* Label 4 */
+/* ==========================================
+	ELEMENTOS DE MOODLE PARA ESCONDER
+========================================== */
+body {
+  overflow-x: hidden; }
+
+#region-main div h2 {
+  display: none; }
+
+#region-main {
+  padding-bottom: 0; }
+
+#region-main .box.generalbox {
+  padding-bottom: 0;
+  margin-bottom: -0.2rem; }
+
+.box.generalbox.book_content h3, .box.generalbox.book_content h4, #region-main div h3, pageintro {
+  display: none; }
+
+.box.generalbox .no-overflow {
+  overflow: initial; }
+
+#region-main div .modified {
+  display: none; }
+
+.navtop {
+  display: none; }
+
+.navbottom {
+  display: none; }
+
+#region-main .completionprogress {
+  float: none; }
+
+.course-content ul li.section.main {
+  margin-top: 0;
+  border-bottom: 0;
+  padding-bottom: 0; }
+
+#course-block-layout aside > .block, #admin-block-layout aside > .block.estiloscompensar {
+  display: none; }
+
+.course-content .content {
+  margin: 0; }
+  .course-content .content .summary .no-overflow {
+    overflow: initial; }
+
+#page-mod-page-view #region-main,
+#page-course-view-topics #region-main {
+  width: 100%; }
+
+#page-mod-page-view #admin-block-layout,
+#page-mod-page-view #course-block-layout,
+#page-course-view-topics #admin-block-layout,
+#page-course-view-topics #course-block-layout {
+  display: none; }
+
+#page-mod-page-view.userswitchedrole #region-main,
+#page-course-view-topics.userswitchedrole #region-main {
+  width: 82.97872340425532%; }
+  @media (min-width: 1350px) {
+    #page-mod-page-view.userswitchedrole #region-main,
+    #page-course-view-topics.userswitchedrole #region-main {
+      width: 82.90598290598291%; } }
+  @media (max-width: 979px) and (min-width: 768px) {
+    #page-mod-page-view.userswitchedrole #region-main,
+    #page-course-view-topics.userswitchedrole #region-main {
+      width: 82.87292817679558%; } }
+  @media (max-width: 767px) {
+    #page-mod-page-view.userswitchedrole #region-main,
+    #page-course-view-topics.userswitchedrole #region-main {
+      width: 100%; } }
+
+#page-mod-page-view.userswitchedrole #admin-block-layout,
+#page-mod-page-view.userswitchedrole #course-block-layout,
+#page-course-view-topics.userswitchedrole #admin-block-layout,
+#page-course-view-topics.userswitchedrole #course-block-layout {
+  display: block; }
+
+.curso-cc header,
+#region-main .curso-cc header {
+  background: none;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9; }
+  .curso-cc header::before, .curso-cc header::after,
+  #region-main .curso-cc header::before,
+  #region-main .curso-cc header::after {
+    content: "";
+    background: #FFFFFF;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%; }
+  .curso-cc header::after,
+  #region-main .curso-cc header::after {
+    left: auto;
+    right: 100%; }
+  @media (max-width: 991px) {
+    .curso-cc header,
+    #region-main .curso-cc header {
+      min-height: auto; } }
+  .curso-cc header .menu-asma,
+  #region-main .curso-cc header .menu-asma {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 9999;
+    top: 0; }
+    @supports (display: flex) {
+      .curso-cc header .menu-asma,
+      #region-main .curso-cc header .menu-asma {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; } }
+    @supports (-ms-ime-align: auto) {
+      .curso-cc header .menu-asma,
+      #region-main .curso-cc header .menu-asma {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; } }
+    @supports not (display: flex) {
+      .curso-cc header .menu-asma,
+      #region-main .curso-cc header .menu-asma {
+        display: inline-block;
+        width: 100%; } }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .curso-cc header .menu-asma,
+      #region-main .curso-cc header .menu-asma {
+        display: -ms-grid;
+        width: 100%; } }
+    .curso-cc header .menu-asma .navbar,
+    #region-main .curso-cc header .menu-asma .navbar {
+      float: initial;
+      width: 100%; }
+      .curso-cc header .menu-asma .navbar .navbar-inner,
+      #region-main .curso-cc header .menu-asma .navbar .navbar-inner {
+        border-radius: 0; }
+        .curso-cc header .menu-asma .navbar .navbar-inner .container,
+        #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container {
+          background: #FFFFFF; }
+          .curso-cc header .menu-asma .navbar .navbar-inner .container .btn-navbar,
+          #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .btn-navbar {
+            float: right;
+            background: #FFFFFF;
+            border: #FFFFFF;
+            width: 20px;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            -webkit-border-radius: 0px;
+            -moz-border-radius: 0px;
+            border-radius: 0px;
+            border-left: 1px solid rgba(157, 176, 172, 0.9);
+            margin: 0;
+            padding: 1rem; }
+            .curso-cc header .menu-asma .navbar .navbar-inner .container .btn-navbar .icon-bar,
+            #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .btn-navbar .icon-bar {
+              background: rgba(157, 176, 172, 0.9);
+              width: 100%; }
+              .curso-cc header .menu-asma .navbar .navbar-inner .container .btn-navbar .icon-bar:nth-child(2),
+              #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .btn-navbar .icon-bar:nth-child(2) {
+                margin-top: 5px; }
+              .curso-cc header .menu-asma .navbar .navbar-inner .container .btn-navbar .icon-bar:last-child,
+              #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .btn-navbar .icon-bar:last-child {
+                display: none; }
+          .curso-cc header .menu-asma .navbar .navbar-inner .container .brand,
+          #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .brand {
+            width: 100%;
+            padding: 0;
+            margin: 0; }
+            .curso-cc header .menu-asma .navbar .navbar-inner .container .brand:before,
+            #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .brand:before {
+              display: none; }
+            @media (max-width: 991px) {
+              .curso-cc header .menu-asma .navbar .navbar-inner .container .brand,
+              #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .brand {
+                max-width: 8rem; } }
+            .curso-cc header .menu-asma .navbar .navbar-inner .container .brand .logo,
+            #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .brand .logo {
+              padding: 0;
+              margin: 0; }
+          .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul,
+          #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul {
+            margin: 0 0 0 1rem;
+            padding-left: 0; }
+            .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li,
+            #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li {
+              list-style-type: none; }
+              .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li:first-child a,
+              #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li:first-child a {
+                padding-right: 12px; }
+                .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li:first-child a:after,
+                #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li:first-child a:after {
+                  display: none; }
+              .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li a,
+              #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li a {
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                font-size: 18px;
+                line-height: 22px;
+                font-weight: 300;
+                font-family: lexia, serif;
+                color: #3C4242;
+                font-style: initial;
+                padding-right: 1.5rem;
+                position: relative;
+                -webkit-transition: all .1s ease-in-out;
+                -o-transition: all .1s ease-in-out;
+                transition: all .1s ease-in-out;
+                padding-bottom: 1rem;
+                text-transform: none; }
+                .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li a:after,
+                #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li a:after {
+                  content: "";
+                  background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/down.svg);
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: 11px;
+                  position: absolute;
+                  width: 1rem;
+                  height: 1.8rem;
+                  top: 0;
+                  right: 0; }
+                .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li a:hover,
+                #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li a:hover {
+                  background: none; }
+              .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu,
+              #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu {
+                background: rgba(255, 255, 255, 0.8);
+                min-width: initial;
+                -webkit-box-shadow: initial;
+                box-shadow: initial;
+                border: 0px;
+                border-radius: 0;
+                padding: 0;
+                margin-left: 0; }
+                .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu:before,
+                #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu:before {
+                  display: none; }
+                .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li,
+                #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li {
+                  border: 0px;
+                  list-style-type: none;
+                  padding-bottom: 0; }
+                  .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li:first-child a:after,
+                  #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li:first-child a:after {
+                    display: block; }
+                  .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:after,
+                  #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:after {
+                    background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/right.svg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 6px;
+                    opacity: 0; }
+                  .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:before,
+                  #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:before {
+                    width: .25rem;
+                    height: .625rem;
+                    margin-left: 0.2375rem;
+                    margin-top: -.3125rem;
+                    background: #d9338c;
+                    content: '';
+                    display: none;
+                    position: absolute;
+                    top: 50%; }
+                  .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:hover,
+                  #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:hover {
+                    background: #FFFFFF; }
+                    .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:hover:after,
+                    #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:hover:after {
+                      opacity: 1; }
+                    .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:hover:before,
+                    #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li .dropdown-menu li a:hover:before {
+                      display: block; }
+            .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li.open a,
+            #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li.open a {
+              color: #3C4242;
+              background: none; }
+              .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li.open a:after,
+              #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse .menu ul li.open a:after {
+                -webkit-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                transform: rotate(180deg); }
+          @media (max-width: 979px) {
+            .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in,
+            #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in {
+              width: 100%;
+              right: 0;
+              background: #FFFFFF;
+              -webkit-box-shadow: none;
+              -moz-box-shadow: none;
+              box-shadow: none;
+              text-align: left; }
+              .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li,
+              #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li {
+                padding: 1rem 1rem 0;
+                border-bottom: 1px solid rgba(157, 176, 172, 0.4);
+                cursor: pointer; }
+                .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li:last-child,
+                #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li:last-child {
+                  border-bottom: 0px; }
+                .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li a,
+                #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li a {
+                  width: 100%; }
+                  .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li a:before,
+                  #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li a:before {
+                    display: none; }
+                .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu,
+                #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu {
+                  background: rgba(157, 176, 172, 0.07);
+                  margin: 0 -1rem -0.2rem; }
+                  .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li,
+                  #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li {
+                    border-bottom: 1px solid rgba(157, 176, 172, 0.4);
+                    padding: 0.3rem 1rem 0.3rem 0; }
+                    .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li:last-child,
+                    #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li:last-child {
+                      border-bottom: 0px; }
+                    .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li a,
+                    #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li a {
+                      font-size: 16px;
+                      line-height: 20px;
+                      font-weight: 700;
+                      font-family: lexia, serif;
+                      color: #3C4242;
+                      font-style: italic;
+                      font-weight: 300; }
+                      .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li a:hover,
+                      #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li a:hover {
+                        background: none; }
+                      .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li a:after,
+                      #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li .dropdown-menu li a:after {
+                        opacity: 1;
+                        top: 0.5rem; }
+              .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li.show ul.show,
+              #region-main .curso-cc header .menu-asma .navbar .navbar-inner .container .nav-collapse.in .menu ul li.show ul.show {
+                display: block; } }
+
+.curso-cc .cc-grid-banner,
+#region-main .curso-cc .cc-grid-banner {
+  grid-template-areas: "topleft topright";
+  grid-template-columns: 60% 40%;
+  grid-gap: 2%;
+  padding: 0rem;
+  position: relative; }
+  @supports (display: grid) {
+    .curso-cc .cc-grid-banner,
+    #region-main .curso-cc .cc-grid-banner {
+      display: grid; } }
+  @supports (-ms-ime-align: auto) {
+    .curso-cc .cc-grid-banner,
+    #region-main .curso-cc .cc-grid-banner {
+      display: grid; } }
+  @supports not (display: grid) {
+    .curso-cc .cc-grid-banner,
+    #region-main .curso-cc .cc-grid-banner {
+      display: inline-block; } }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .curso-cc .cc-grid-banner,
+    #region-main .curso-cc .cc-grid-banner {
+      display: -ms-grid; } }
+  @media (max-width: 780px) {
+    .curso-cc .cc-grid-banner,
+    #region-main .curso-cc .cc-grid-banner {
+      grid-template-areas: "top" "bottom";
+      grid-template-columns: 100%; } }
+  .curso-cc .cc-grid-banner .banner,
+  #region-main .curso-cc .cc-grid-banner .banner {
+    grid-area: topleft;
+    justify-self: stretch; }
+    @media (max-width: 780px) {
+      .curso-cc .cc-grid-banner .banner,
+      #region-main .curso-cc .cc-grid-banner .banner {
+        grid-area: top; } }
+  .curso-cc .cc-grid-banner h1,
+  #region-main .curso-cc .cc-grid-banner h1 {
+    grid-area: topright;
+    padding: 1rem 1rem 1rem 0;
+    margin: 2rem 0;
+    line-height: 57px; }
+    @media (max-width: 780px) {
+      .curso-cc .cc-grid-banner h1,
+      #region-main .curso-cc .cc-grid-banner h1 {
+        grid-area: bottom;
+        padding: 1rem; } }
+  .curso-cc .cc-grid-banner .small,
+  #region-main .curso-cc .cc-grid-banner .small {
+    margin: .7rem 3rem .7rem 0rem; }
+  .curso-cc .cc-grid-banner .logo-amgen,
+  #region-main .curso-cc .cc-grid-banner .logo-amgen {
+    grid-area: topright;
+    display: table;
+    position: absolute;
+    bottom: 1rem;
+    right: 10%;
+    max-width: 91px; }
+    @media (max-width: 780px) {
+      .curso-cc .cc-grid-banner .logo-amgen,
+      #region-main .curso-cc .cc-grid-banner .logo-amgen {
+        grid-area: bottom;
+        right: 2%; } }
+
+.curso-cc .banner-principal,
+#region-main .curso-cc .banner-principal {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  -ms-grid-rows: auto;
+  grid-gap: 2%;
+  padding: 0rem;
+  position: relative;
+  background: url("https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/banners/home.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-bottom: 3rem; }
+  @supports (display: grid) {
+    .curso-cc .banner-principal,
+    #region-main .curso-cc .banner-principal {
+      display: grid; } }
+  @supports (-ms-ime-align: auto) {
+    .curso-cc .banner-principal,
+    #region-main .curso-cc .banner-principal {
+      display: grid; } }
+  @supports not (display: grid) {
+    .curso-cc .banner-principal,
+    #region-main .curso-cc .banner-principal {
+      display: inline-block; } }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .curso-cc .banner-principal,
+    #region-main .curso-cc .banner-principal {
+      display: -ms-grid; } }
+  .curso-cc .banner-principal div,
+  #region-main .curso-cc .banner-principal div {
+    grid-column: 2/6;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-row: 1/1;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 0;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    margin: 1rem 0; }
+    @media (max-width: 1000px) {
+      .curso-cc .banner-principal div,
+      #region-main .curso-cc .banner-principal div {
+        grid-column: 2/8;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 6; } }
+    @media (max-width: 780px) {
+      .curso-cc .banner-principal div,
+      #region-main .curso-cc .banner-principal div {
+        grid-column: 2/10;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 8; } }
+    @media (max-width: 780px) {
+      .curso-cc .banner-principal div,
+      #region-main .curso-cc .banner-principal div {
+        grid-column: 2/12;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 10; } }
+    .curso-cc .banner-principal div h1,
+    #region-main .curso-cc .banner-principal div h1 {
+      color: #3C4242; }
+
+.curso-cc .banner-interno,
+#region-main .curso-cc .banner-interno {
+  text-align: center;
+  margin-bottom: 3rem; }
+  .curso-cc .banner-interno div[class*="mod-"],
+  #region-main .curso-cc .banner-interno div[class*="mod-"] {
+    padding: 4rem 2rem; }
+  .curso-cc .banner-interno .mod-0,
+  #region-main .curso-cc .banner-interno .mod-0 {
+    background: #830051; }
+    .curso-cc .banner-interno .mod-0 h1,
+    #region-main .curso-cc .banner-interno .mod-0 h1 {
+      color: #FFFFFF; }
+      .curso-cc .banner-interno .mod-0 h1:last-child,
+      #region-main .curso-cc .banner-interno .mod-0 h1:last-child {
+        margin-bottom: 0; }
+  .curso-cc .banner-interno .mod-1,
+  #region-main .curso-cc .banner-interno .mod-1 {
+    background: #C4D600; }
+    .curso-cc .banner-interno .mod-1 h1,
+    #region-main .curso-cc .banner-interno .mod-1 h1 {
+      color: #FFFFFF; }
+      .curso-cc .banner-interno .mod-1 h1:last-child,
+      #region-main .curso-cc .banner-interno .mod-1 h1:last-child {
+        margin-bottom: 0; }
+  .curso-cc .banner-interno .mod-2,
+  #region-main .curso-cc .banner-interno .mod-2 {
+    background: #003865; }
+    .curso-cc .banner-interno .mod-2 h1,
+    #region-main .curso-cc .banner-interno .mod-2 h1 {
+      color: #FFFFFF; }
+      .curso-cc .banner-interno .mod-2 h1:last-child,
+      #region-main .curso-cc .banner-interno .mod-2 h1:last-child {
+        margin-bottom: 0; }
+
+.curso-cc .thumbnails.home:nth-child(odd) li:nth-child(2) .thumbnail > div,
+#region-main .curso-cc .thumbnails.home:nth-child(odd) li:nth-child(2) .thumbnail > div {
+  background: #C4D600; }
+
+.curso-cc .thumbnails.home:nth-child(odd) li:nth-child(3) .thumbnail > div,
+#region-main .curso-cc .thumbnails.home:nth-child(odd) li:nth-child(3) .thumbnail > div {
+  background: #003865; }
+
+.curso-cc .thumbnails.home:nth-child(even) li:nth-child(1) .thumbnail > div,
+#region-main .curso-cc .thumbnails.home:nth-child(even) li:nth-child(1) .thumbnail > div {
+  background: #F0AB00; }
+
+.curso-cc .thumbnails.home:nth-child(even) li:nth-child(2) .thumbnail > div,
+#region-main .curso-cc .thumbnails.home:nth-child(even) li:nth-child(2) .thumbnail > div {
+  background: #68D2DF; }
+
+.curso-cc .thumbnails.home .thumbnail,
+#region-main .curso-cc .thumbnails.home .thumbnail {
+  -webkit-box-shadow: 0px 0px 6px rgba(60, 66, 66, 0.2);
+  -moz-box-shadow: 0px 0px 6px rgba(60, 66, 66, 0.2);
+  box-shadow: 0px 0px 6px rgba(60, 66, 66, 0.2);
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: 0px;
+  padding: 1.5rem;
+  text-align: center; }
+  .curso-cc .thumbnails.home .thumbnail > div,
+  #region-main .curso-cc .thumbnails.home .thumbnail > div {
+    background: #830051;
+    margin: -1.5rem -1.5rem 2rem;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative; }
+    .curso-cc .thumbnails.home .thumbnail > div:after,
+    #region-main .curso-cc .thumbnails.home .thumbnail > div:after {
+      height: 10px;
+      bottom: -0.6rem;
+      content: '';
+      position: absolute;
+      width: 70%;
+      left: 15%;
+      background-color: inherit; }
+    .curso-cc .thumbnails.home .thumbnail > div h1,
+    #region-main .curso-cc .thumbnails.home .thumbnail > div h1 {
+      color: #FFFFFF;
+      margin-bottom: 0; }
+  .curso-cc .thumbnails.home .thumbnail h2,
+  .curso-cc .thumbnails.home .thumbnail p,
+  #region-main .curso-cc .thumbnails.home .thumbnail h2,
+  #region-main .curso-cc .thumbnails.home .thumbnail p {
+    text-align: left; }
+
+/* video iframe */
+/* VIDEO CONTAINER */
+.curso-cc #video .embed-container,
+#region-main .curso-cc #video .embed-container {
+  position: relative;
+  padding-bottom: 72.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.curso-cc #video .embed-container-2,
+#region-main .curso-cc #video .embed-container-2 {
+  position: relative;
+  padding-bottom: 57.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.curso-cc #video .embed-container iframe, .curso-cc #video .embed-container object, .curso-cc #video .embed-container embed,
+#region-main .curso-cc #video .embed-container iframe,
+#region-main .curso-cc #video .embed-container object,
+#region-main .curso-cc #video .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0; }
+
+.curso-cc #video .embed-container-2 iframe, .curso-cc #video .embed-container-2 object, .curso-cc #video .embed-container-2 embed,
+#region-main .curso-cc #video .embed-container-2 iframe,
+#region-main .curso-cc #video .embed-container-2 object,
+#region-main .curso-cc #video .embed-container-2 embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0; }
+
+.curso-cc #video .embed-container iframe,
+#region-main .curso-cc #video .embed-container iframe {
+  min-height: 600px; }
+
+@media (max-width: 767px) {
+  .curso-cc .content-cc .video-cc,
+  #region-main .curso-cc .content-cc .video-cc {
+    display: inline-block; } }
+
+.curso-cc,
+#region-main .curso-cc {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  font-family: Helvetica Neue LT Std, sans-serif;
+  color: #3C4242; }
+  .curso-cc h1,
+  #region-main .curso-cc h1 {
+    font-size: 42px;
+    line-height: 48px;
+    font-style: italic;
+    font-weight: 300;
+    font-family: lexia, serif;
+    color: #3C4242;
+    max-width: 817px;
+    margin: auto;
+    margin-bottom: .5rem; }
+    @media (max-width: 550px) {
+      .curso-cc h1,
+      #region-main .curso-cc h1 {
+        font-size: 2.4em;
+        line-height: 1em; } }
+  .curso-cc h2,
+  #region-main .curso-cc h2 {
+    font-size: 23px;
+    line-height: 29px;
+    font-weight: 300;
+    font-family: lexia, serif;
+    color: #3C4242 !important;
+    max-width: 817px;
+    margin: auto;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+    display: block; }
+  .curso-cc h3,
+  #region-main .curso-cc h3 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    font-family: lexia, serif;
+    color: #3C4242;
+    max-width: 817px;
+    margin: auto;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+    display: block; }
+  .curso-cc h4,
+  #region-main .curso-cc h4 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    font-family: lexia, serif;
+    color: #3C4242;
+    max-width: 817px;
+    margin: auto;
+    margin-bottom: .5rem;
+    margin-top: 1rem; }
+  .curso-cc h5,
+  #region-main .curso-cc h5 {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    font-family: lexia, serif;
+    color: #3C4242;
+    max-width: 817px;
+    margin: auto;
+    margin-bottom: .5rem;
+    margin-top: 1rem; }
+  .curso-cc h6,
+  #region-main .curso-cc h6 {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 300;
+    font-family: lexia, serif;
+    color: #3C4242;
+    max-width: 817px;
+    margin: auto;
+    margin-bottom: .5rem;
+    margin-top: 1rem; }
+  .curso-cc p,
+  #region-main .curso-cc p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    font-family: Helvetica Neue LT Std, sans-serif;
+    color: #3C4242;
+    max-width: 817px;
+    margin: auto; }
+  .curso-cc label-4,
+  #region-main .curso-cc label-4 {
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: normal;
+    font-family: HelveticaNeueLTStd-Lt, sans-serif;
+    color: #3C4242; }
+  .curso-cc .label-text,
+  #region-main .curso-cc .label-text {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: lexia, serif;
+    color: #3C4242;
+    font-style: italic; }
+  .curso-cc a,
+  #region-main .curso-cc a {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: lexia, serif;
+    color: #3C4242;
+    font-style: italic;
+    position: relative;
+    text-decoration: none; }
+    .curso-cc a:before,
+    #region-main .curso-cc a:before {
+      height: .25rem;
+      bottom: -.25rem;
+      content: '';
+      position: absolute;
+      width: 100%;
+      left: 0;
+      background-color: #d9338c;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      -ms-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all .15s ease-out;
+      -o-transition: all .15s ease-out;
+      transition: all .15s ease-out; }
+    .curso-cc a:hover:before,
+    #region-main .curso-cc a:hover:before {
+      opacity: 1;
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+      transform: scaleX(1); }
+
+.curso-cc .footer,
+#region-main .curso-cc .footer {
+  background: none;
+  margin: auto;
+  text-align: center; }
+  .curso-cc .footer div,
+  #region-main .curso-cc .footer div {
+    display: inline-block;
+    margin-right: 1rem;
+    vertical-align: top; }
+    .curso-cc .footer div:last-child,
+    #region-main .curso-cc .footer div:last-child {
+      margin-right: 0; }
+    .curso-cc .footer div:nth-child(n+2),
+    #region-main .curso-cc .footer div:nth-child(n+2) {
+      padding: 1rem; }
+
+.curso-cc .legal-footer,
+#region-main .curso-cc .legal-footer {
+  background: rgba(157, 176, 172, 0.2);
+  text-align: center;
+  position: relative;
+  padding: 2rem; }
+  .curso-cc .legal-footer::before, .curso-cc .legal-footer::after,
+  #region-main .curso-cc .legal-footer::before,
+  #region-main .curso-cc .legal-footer::after {
+    content: "";
+    background: rgba(157, 176, 172, 0.2);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%; }
+  .curso-cc .legal-footer::after,
+  #region-main .curso-cc .legal-footer::after {
+    left: auto;
+    right: 100%; }
+  .curso-cc .legal-footer p,
+  #region-main .curso-cc .legal-footer p {
+    text-align: center;
+    padding-bottom: 0; }
+
+.curso-cc .row-fluid .content-cc ol,
+.curso-cc .row-fluid .content-cc ul,
+#region-main .curso-cc .row-fluid .content-cc ol,
+#region-main .curso-cc .row-fluid .content-cc ul {
+  max-width: 817px;
+  margin: auto;
+  padding-left: 4rem;
+  margin-bottom: 1rem; }
+  .curso-cc .row-fluid .content-cc ol li,
+  .curso-cc .row-fluid .content-cc ul li,
+  #region-main .curso-cc .row-fluid .content-cc ol li,
+  #region-main .curso-cc .row-fluid .content-cc ul li {
+    padding-bottom: .5rem; }
+    .curso-cc .row-fluid .content-cc ol li ol,
+    .curso-cc .row-fluid .content-cc ol li ul,
+    .curso-cc .row-fluid .content-cc ul li ol,
+    .curso-cc .row-fluid .content-cc ul li ul,
+    #region-main .curso-cc .row-fluid .content-cc ol li ol,
+    #region-main .curso-cc .row-fluid .content-cc ol li ul,
+    #region-main .curso-cc .row-fluid .content-cc ul li ol,
+    #region-main .curso-cc .row-fluid .content-cc ul li ul {
+      padding-left: 1rem; }
+  .curso-cc .row-fluid .content-cc ol ol,
+  .curso-cc .row-fluid .content-cc ol ul,
+  .curso-cc .row-fluid .content-cc ul ol,
+  .curso-cc .row-fluid .content-cc ul ul,
+  #region-main .curso-cc .row-fluid .content-cc ol ol,
+  #region-main .curso-cc .row-fluid .content-cc ol ul,
+  #region-main .curso-cc .row-fluid .content-cc ul ol,
+  #region-main .curso-cc .row-fluid .content-cc ul ul {
+    padding-left: 1rem; }
+
+.curso-cc .row-fluid .content-cc .charts,
+#region-main .curso-cc .row-fluid .content-cc .charts {
+  max-width: 817px;
+  margin: auto;
+  height: auto;
+  min-height: 450px;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.curso-cc .banner-video.span12,
+#region-main .curso-cc .banner-video.span12 {
+  margin-top: 0; }
+
+.curso-cc .banner-video,
+#region-main .curso-cc .banner-video {
+  max-width: 870px;
+  margin: 2rem auto;
+  position: relative; }
+  @supports (display: flex) {
+    .curso-cc .banner-video,
+    #region-main .curso-cc .banner-video {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
+  @supports (-ms-ime-align: auto) {
+    .curso-cc .banner-video,
+    #region-main .curso-cc .banner-video {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
+  @supports not (display: flex) {
+    .curso-cc .banner-video,
+    #region-main .curso-cc .banner-video {
+      display: inline-block;
+      width: 100%; } }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .curso-cc .banner-video,
+    #region-main .curso-cc .banner-video {
+      display: -ms-grid;
+      width: 100%; } }
+  .curso-cc .banner-video > div a,
+  #region-main .curso-cc .banner-video > div a {
+    display: block; }
+    .curso-cc .banner-video > div a:before,
+    #region-main .curso-cc .banner-video > div a:before {
+      display: none; }
+    .curso-cc .banner-video > div a:after,
+    #region-main .curso-cc .banner-video > div a:after {
+      content: "";
+      background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/zoom.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      position: absolute;
+      width: 3rem;
+      height: 3rem;
+      top: 43%;
+      right: 45%;
+      pointer-events: none;
+      -webkit-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out; }
+    .curso-cc .banner-video > div a:hover:after,
+    #region-main .curso-cc .banner-video > div a:hover:after {
+      -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+      transform: scale(1.5); }
+  .curso-cc .banner-video > div:nth-child(2),
+  #region-main .curso-cc .banner-video > div:nth-child(2) {
+    -ms-flex-item-align: end;
+    align-self: flex-end; }
+  .curso-cc .banner-video #video img,
+  #region-main .curso-cc .banner-video #video img {
+    width: 100%;
+    height: auto; }
+  .curso-cc .banner-video span:last-child,
+  #region-main .curso-cc .banner-video span:last-child {
+    min-height: 0px; }
+  .curso-cc .banner-video .img-footer,
+  #region-main .curso-cc .banner-video .img-footer {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: lexia, serif;
+    color: #3C4242;
+    font-style: italic; }
+
+.curso-cc .content-cc .bs-docs,
+#region-main .curso-cc .content-cc .bs-docs {
+  max-width: 817px;
+  margin: auto; }
+
+.curso-cc .content-cc .nav-tabs,
+#region-main .curso-cc .content-cc .nav-tabs {
+  margin: 1.9rem 0 .5rem;
+  border: none; }
+  .curso-cc .content-cc .nav-tabs li,
+  #region-main .curso-cc .content-cc .nav-tabs li {
+    list-style-type: none; }
+    .curso-cc .content-cc .nav-tabs li a,
+    #region-main .curso-cc .content-cc .nav-tabs li a {
+      border: 1px solid #830051; }
+      .curso-cc .content-cc .nav-tabs li a:hover,
+      #region-main .curso-cc .content-cc .nav-tabs li a:hover {
+        border: 1px solid #830051;
+        background: #FFFFFF; }
+      .curso-cc .content-cc .nav-tabs li a:after,
+      #region-main .curso-cc .content-cc .nav-tabs li a:after {
+        display: none; }
+  .curso-cc .content-cc .nav-tabs li.active a,
+  #region-main .curso-cc .content-cc .nav-tabs li.active a {
+    background: #D0006F;
+    color: #FFFFFF; }
+
+.curso-cc .content-cc .tab-content,
+#region-main .curso-cc .content-cc .tab-content {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 2rem;
+  border-bottom: 1px solid #003865; }
+
+.curso-cc .progress,
+#region-main .curso-cc .progress {
+  max-width: 710px;
+  margin: auto; }
+  .curso-cc .progress .bar,
+  #region-main .curso-cc .progress .bar {
+    background: #C4D600;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+
+.curso-cc .progres,
+#region-main .curso-cc .progres {
+  max-width: 710px;
+  margin: auto; }
+
+.curso-cc .progress-striped .bar,
+#region-main .curso-cc .progress-striped .bar {
+  background-color: #C4D600; }
+
+.curso-cc .row-fluid .content-cc .material-modulo,
+#region-main .curso-cc .row-fluid .content-cc .material-modulo {
+  background: #3C4242;
+  position: relative;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 2rem 0 0;
+  margin-top: 3rem;
+  width: 100%; }
+  .curso-cc .row-fluid .content-cc .material-modulo::before, .curso-cc .row-fluid .content-cc .material-modulo::after,
+  #region-main .curso-cc .row-fluid .content-cc .material-modulo::before,
+  #region-main .curso-cc .row-fluid .content-cc .material-modulo::after {
+    content: "";
+    background: #3C4242;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%; }
+  .curso-cc .row-fluid .content-cc .material-modulo::after,
+  #region-main .curso-cc .row-fluid .content-cc .material-modulo::after {
+    left: auto;
+    right: 100%; }
+  .curso-cc .row-fluid .content-cc .material-modulo h1,
+  #region-main .curso-cc .row-fluid .content-cc .material-modulo h1 {
+    color: #FFFFFF;
+    margin: auto;
+    max-width: 860px; }
+    .curso-cc .row-fluid .content-cc .material-modulo h1 span,
+    #region-main .curso-cc .row-fluid .content-cc .material-modulo h1 span {
+      font-size: 18px;
+      line-height: 22px;
+      font-weight: 300;
+      font-family: lexia, serif;
+      color: #3C4242;
+      font-style: normal;
+      color: #FFFFFF;
+      display: block; }
+  .curso-cc .row-fluid .content-cc .material-modulo .thumbnails,
+  #region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails {
+    margin: 2rem auto 0;
+    max-width: 860px;
+    padding: 0; }
+    .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail,
+    #region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail {
+      padding: 0;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      border-radius: 0px;
+      border: 0px;
+      background: #FFFFFF;
+      text-align: center; }
+      .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption,
+      #region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption {
+        padding: 1.5rem 1.5rem 0.5rem; }
+        .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption p,
+        #region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption p {
+          text-align: left; }
+        .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a,
+        #region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a {
+          -webkit-border-radius: 0px;
+          -moz-border-radius: 0px;
+          border-radius: 0px;
+          -webkit-transition: all ease-in-out 0.2s;
+          -moz-transition: all ease-in-out 0.2s;
+          -o-transition: all ease-in-out 0.2s;
+          transition: all ease-in-out 0.2s;
+          font-size: 16px;
+          line-height: 20px;
+          font-weight: 700;
+          font-family: lexia, serif;
+          color: #3C4242;
+          font-style: italic;
+          background: #FFFFFF;
+          border: 1px solid #FFFFFF;
+          color: #3C4242;
+          padding: 0.6rem 1rem;
+          text-shadow: none;
+          text-decoration: none;
+          display: inline-block;
+          position: relative;
+          padding: 0.6rem 1.5rem .6rem 1rem; }
+          .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a:after,
+          #region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a:after {
+            background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/right.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 6px;
+            content: "";
+            position: absolute;
+            width: 1rem;
+            height: 1.8rem;
+            top: 0.3rem;
+            right: -0.7rem; }
+          .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a:before,
+          #region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a:before {
+            height: 2px;
+            bottom: 0rem;
+            content: '';
+            position: absolute;
+            width: 85%;
+            left: 8%;
+            background-color: #3C4242; }
+          .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a:before,
+          #region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a:before {
+            background: #3C4242; }
+          .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a:after,
+          #region-main .curso-cc .row-fluid .content-cc .material-modulo .thumbnails li .thumbnail .caption a:after {
+            right: 0rem; }
+
+.curso-cc .secondary-btn,
+#region-main .curso-cc .secondary-btn {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-transition: all ease-in-out 0.2s;
+  -moz-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  font-family: lexia, serif;
+  color: #3C4242;
+  font-style: italic;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  color: #3C4242;
+  padding: 0.6rem 1rem;
+  text-shadow: none;
+  text-decoration: none;
+  display: inline-block;
+  position: relative; }
+  .curso-cc .secondary-btn:after,
+  #region-main .curso-cc .secondary-btn:after {
+    background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 6px;
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1.8rem;
+    top: 0.3rem;
+    right: -0.7rem; }
+  .curso-cc .secondary-btn:before,
+  #region-main .curso-cc .secondary-btn:before {
+    height: 2px;
+    bottom: 0rem;
+    content: '';
+    position: absolute;
+    width: 85%;
+    left: 8%;
+    background-color: #3C4242; }
+
+.curso-cc .pager,
+#region-main .box.generalbox .curso-cc .pager {
+  background: #3C4242;
+  padding: 2rem;
+  position: relative; }
+  .curso-cc .pager::before, .curso-cc .pager::after,
+  #region-main .box.generalbox .curso-cc .pager::before,
+  #region-main .box.generalbox .curso-cc .pager::after {
+    content: "";
+    background: #3C4242;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%; }
+  .curso-cc .pager::after,
+  #region-main .box.generalbox .curso-cc .pager::after {
+    left: auto;
+    right: 100%; }
+  .curso-cc .pager li,
+  #region-main .box.generalbox .curso-cc .pager li {
+    display: inline-block; }
+    .curso-cc .pager li a,
+    #region-main .box.generalbox .curso-cc .pager li a {
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      border-radius: 0px;
+      -webkit-transition: all ease-in-out 0.2s;
+      -moz-transition: all ease-in-out 0.2s;
+      -o-transition: all ease-in-out 0.2s;
+      transition: all ease-in-out 0.2s;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 700;
+      font-family: lexia, serif;
+      color: #3C4242;
+      font-style: italic;
+      background: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      color: #3C4242;
+      padding: 0.6rem 1rem;
+      text-shadow: none;
+      text-decoration: none;
+      display: inline-block;
+      position: relative; }
+      .curso-cc .pager li a:after,
+      #region-main .box.generalbox .curso-cc .pager li a:after {
+        background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/right.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 6px;
+        content: "";
+        position: absolute;
+        width: 1rem;
+        height: 1.8rem;
+        top: 0.3rem;
+        right: -0.7rem; }
+      .curso-cc .pager li a:before,
+      #region-main .box.generalbox .curso-cc .pager li a:before {
+        height: 2px;
+        bottom: 0rem;
+        content: '';
+        position: absolute;
+        width: 85%;
+        left: 8%;
+        background-color: #3C4242; }
+  .curso-cc .pager li.disabled a,
+  #region-main .box.generalbox .curso-cc .pager li.disabled a {
+    opacity: .5; }
+    .curso-cc .pager li.disabled a:before,
+    #region-main .box.generalbox .curso-cc .pager li.disabled a:before {
+      display: none; }
+  .curso-cc .pager .previous a,
+  #region-main .box.generalbox .curso-cc .pager .previous a {
+    padding: 0.6rem 1rem .6rem 2rem; }
+    .curso-cc .pager .previous a:after,
+    #region-main .box.generalbox .curso-cc .pager .previous a:after {
+      background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/left.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 6px;
+      content: "";
+      position: absolute;
+      width: 1rem;
+      height: 1.8rem;
+      left: 0.4rem;
+      right: initial; }
+  .curso-cc .pager .next a,
+  #region-main .box.generalbox .curso-cc .pager .next a {
+    padding: 0.6rem 2rem .6rem 1rem; }
+    .curso-cc .pager .next a:after,
+    #region-main .box.generalbox .curso-cc .pager .next a:after {
+      right: 0.4rem; }
+
+.curso-cc .table,
+#region-main .curso-cc .table {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 2rem auto;
+  max-width: 860px; }
+  .curso-cc .table caption,
+  #region-main .curso-cc .table caption {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: lexia, serif;
+    color: #3C4242;
+    font-style: italic;
+    max-width: 817px;
+    margin: 0 auto 1rem; }
+  .curso-cc .table thead th,
+  #region-main .curso-cc .table thead th {
+    background: #003865;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: lexia, serif;
+    color: #3C4242;
+    font-style: italic;
+    color: #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    vertical-align: middle;
+    text-align: center; }
+    .curso-cc .table thead th:first-child,
+    #region-main .curso-cc .table thead th:first-child {
+      border-left: 0px; }
+    .curso-cc .table thead th:last-child,
+    #region-main .curso-cc .table thead th:last-child {
+      border-right: 0px; }
+  .curso-cc .table tr td,
+  #region-main .curso-cc .table tr td {
+    border-top: 1px solid #003865;
+    border-bottom: 1px solid #003865;
+    border-left: 1px solid #003865;
+    border-right: 1px solid #003865;
+    font-family: "HelveticaNeueLTStd-LtCn";
+    line-height: initial;
+    text-align: center;
+    padding: 0.5rem 0.4rem; }
+    .curso-cc .table tr td:first-child,
+    #region-main .curso-cc .table tr td:first-child {
+      border-left: 0px; }
+    .curso-cc .table tr td:last-child,
+    #region-main .curso-cc .table tr td:last-child {
+      border-right: 0px; }
+  .curso-cc .table tr:nth-child(odd) td,
+  #region-main .curso-cc .table tr:nth-child(odd) td {
+    background: rgba(0, 56, 101, 0.2); }
+  .curso-cc .table tr:last-child td,
+  #region-main .curso-cc .table tr:last-child td {
+    border-bottom: 0px; }
+
+.curso-cc .content-cc .resaltado-txt,
+#region-main .curso-cc .content-cc .resaltado-txt {
+  max-width: 710px;
+  margin: auto;
+  float: none;
+  background: #9DB0AC;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1rem 2rem; }
+  .curso-cc .content-cc .resaltado-txt h2,
+  #region-main .curso-cc .content-cc .resaltado-txt h2 {
+    font-size: 23px;
+    line-height: 29px;
+    font-weight: 300;
+    font-family: lexia, serif;
+    color: #3C4242 !important;
+    font-weight: 200;
+    color: #FFFFFF; }
+  .curso-cc .content-cc .resaltado-txt p,
+  #region-main .curso-cc .content-cc .resaltado-txt p {
+    font-size: 23px;
+    line-height: 29px;
+    font-weight: 300;
+    font-family: lexia, serif;
+    color: #3C4242 !important;
+    color: #FFFFFF; }
+
+.curso-cc .content-cc .accordion,
+#region-main .curso-cc .content-cc .accordion {
+  max-width: 810px;
+  margin: 2rem auto; }
+  .curso-cc .content-cc .accordion .accordion-group,
+  #region-main .curso-cc .content-cc .accordion .accordion-group {
+    border: 0px;
+    border-radius: 0px;
+    margin-bottom: 0;
+    margin-top: -1px; }
+    .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle,
+    #region-main .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle {
+      background: #830051;
+      border: 1px solid #830051;
+      color: #FFFFFF;
+      font-family: "MyriadPro-Semibold"; }
+      .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle:hover,
+      #region-main .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle:hover {
+        background: #830051;
+        color: #FFFFFF; }
+      .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle:before,
+      #region-main .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle:before {
+        display: none; }
+      .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle:after,
+      #region-main .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle:after {
+        content: "";
+        background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/up-white.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 11px;
+        position: absolute;
+        width: 1rem;
+        height: 1.8rem;
+        top: 0.2rem;
+        right: 0.5rem; }
+    .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed,
+    #region-main .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed {
+      background: #FFFFFF;
+      border: 1px solid #830051;
+      color: #3C4242;
+      font-family: "MyriadPro-Semibold"; }
+      .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed:hover,
+      #region-main .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed:hover {
+        background: #830051;
+        color: #FFFFFF; }
+      .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed:before,
+      #region-main .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed:before {
+        display: none; }
+      .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed:after,
+      #region-main .curso-cc .content-cc .accordion .accordion-group .accordion-heading .accordion-toggle.collapsed:after {
+        content: "";
+        background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/down.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 11px;
+        position: absolute;
+        width: 1rem;
+        height: 1.8rem;
+        top: 0.2rem;
+        right: 0.5rem; }
+    .curso-cc .content-cc .accordion .accordion-group .accordion-body,
+    #region-main .curso-cc .content-cc .accordion .accordion-group .accordion-body {
+      background: #FFFFFF; }
+      .curso-cc .content-cc .accordion .accordion-group .accordion-body .accordion-inner,
+      #region-main .curso-cc .content-cc .accordion .accordion-group .accordion-body .accordion-inner {
+        display: inline-block;
+        padding: 2rem; }

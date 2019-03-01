@@ -1,0 +1,59 @@
+include ../mixins.jade
+
+//- Head html tag
+include ../includes/header.jade
+
+//- Content & 1
+div.curso-cc.mod0#pagina1
+
+	div.container-fluid
+		
+		div.row-fluid
+			div.span12
+				header
+					div#menu-asma.menu-asma
+					
+				div.banner-principal
+					div
+						h1 Curso virtual: manejo del asma en atención primaria
+						
+				ul.thumbnails.home
+					li.span4.timeit(data-start="2019-02-11 00:00")
+						div.thumbnail
+							div
+								h1 Módulo 0
+							h2 Lineamientos
+							p Información referente a al desarrollo del curso y su metodología.
+							a.secondary-btn(href='#') Ingresar al módulo
+							
+					li.span4.timeit(data-start="2019-02-11 00:00")
+						div.thumbnail
+							div
+								h1 Módulo 1
+							h2 Prevención primaria
+							p Desde la primera perspectiva se puede decir que es un síndrome inflamatorio crónico del tracto respiratorio, con diferentes fenotipos, que incluye la participación de células como los mastocitos, eosinófilos, linfocitos T, macrófagos, células epiteliales, células mesenquimales y diferentes mediadores inflamatorios.
+							a.secondary-btn(href='https://ubosquemoodle.unbosque.edu.co/mod/page/view.php?id=281624') Ingresar al módulo
+							
+					li.span4.timeit(data-start="2019-02-11 00:00")
+						div.thumbnail
+							div
+								h1 Módulo 2
+							h2 Prevención secundaria
+							p Generalmente la presencia de los síntomas es variable en su presentación, se pueden presentar de predominio nocturno o de madrugada asociados a factores desencadenantes como el ejercicio físico, infecciones virales, humo de tabaco entre otras.
+							a.secondary-btn(href='https://ubosquemoodle.unbosque.edu.co/mod/page/view.php?id=282215') Ingresar al módulo
+							
+		div.row-fliud
+			div.span12
+				div#footer-logos
+				
+		div.row-fluid
+			div.span12.legal-footer
+				p.label-4 AstraZeneca Colombia S.A.S. Carrera 7. No. 71- 21. Torre A Piso 19, Bogotá. Tel. +57 (1) 3257200.<br> Material Educativo dirigido al cuerpo médico – Cortesía de AZ<br> MATPROM: CO-1753<br> Material Dirigido al Cuerpo Médico<br> Prep: 01-2019
+							
+
+//- Final part of body
+//- Page transitions js
+include ../includes/js-body-ends.jade
+		
+		
+			
