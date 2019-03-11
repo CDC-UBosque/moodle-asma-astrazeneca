@@ -94,6 +94,34 @@
 			
 		}
 		
+		.mod-3{
+			background: $color_orange;
+			
+			h1{
+				color: $color_white;
+				
+				&:last-child{
+					margin-bottom: 0;
+				}
+				
+			}
+			
+		}
+		
+		.mod-4{
+			background: $color_light_blue;
+			
+			h1{
+				color: $color_white;
+				
+				&:last-child{
+					margin-bottom: 0;
+				}
+				
+			}
+			
+		}
+		
 	}
 	
 }

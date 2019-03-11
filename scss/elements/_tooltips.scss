@@ -1,0 +1,33 @@
+// -----------------------
+// tables
+// -----------------------
+
+.curso-cc,
+#region-main .curso-cc{
+	
+	.tooltips{
+		@include links;
+		cursor: pointer;
+	}
+	
+	.tooltip{
+		
+		.tooltip-arrow{
+			border-top-color: $color_text;
+		}
+		
+		.tooltip-inner{
+			background: $color_text;
+			max-width: 25rem;
+			@include Body-copy ();
+			color: $color_white;
+			@include prefix(border-radius, 0px, webkit moz);
+		}
+		
+	}
+	
+	.tooltip.in{
+		opacity: 1;
+	}
+	
+}

@@ -1,0 +1,109 @@
+include ../mixins.jade
+
+//- Head html tag
+include ../includes/header.jade
+
+//- Content & 1
+div.curso-cc.mod0#pagina1
+
+	div.container-fluid
+		
+		div.row-fluid
+			div.span12.content-cc
+			
+				header
+					div#menu-asma.menu-asma
+					
+				div.banner-interno#mod3-1
+				
+				h2 Conceptos claves:
+				
+				p Control y gravedad son dos de los conceptos más importantes para la evaluación del paciente con asma y la selección del tratamiento adecuado en cada consulta (1-3).
+				
+				h3 Control
+				
+				p La estrategia GINA define al control como el grado en el que las manifestaciones de la enfermedad han sido reducidas o eliminadas por el tratamiento. El control del asma debe evaluarse siempre que el paciente asiste a consulta, y está compuesto por dos dominios que al ser independientes deben ser evaluados por separado (1-3).
+				
+				p Estos dominios son: 
+				
+				//- Acordion
+				div.accordion#accordion2
+					div.accordion-group
+						div.accordion-heading
+							a.accordion-toggle.collapsed(data-toggle='collapse' data-parent='#accordion2' href='#collapse1')
+								span 1. Síntomas
+						div#collapse1.accordion-body.collapse
+							div.accordion-inner
+								p Que se evalúan por medio de un cuestionario denominado ACT -del inglés Asthma Control Test. El empleo del ACT evalúa su control en el último mes y tiene la ventaja de mostrar un puntaje (mayor o igual a 20 indicando control y menor o igual a 19 no control) y es sensible al cambio, es decir que aumenta tras el empleo del tratamiento adecuado (1-3). Los pacientes y los médicos pueden revisar la versión para Colombia y verificar el control en: 
+									a(href='https://www.asthmacontroltest.com/South%20America/Colombia/es' target='_blank') https://www.asthmacontroltest.com/South%20America/Colombia/es
+								
+					div.accordion-group
+						div.accordion-heading
+							a.accordion-toggle.collapsed(data-toggle='collapse' data-parent='#accordion2' href='#collapse2')
+								span 2. Riesgo de exacerbaciones, de limitación al flujo aéreo o de eventos adversos del tratamiento (1-3)
+						div#collapse2.accordion-body.collapse
+							div.accordion-inner
+								p No existe un cuestionario recomendado por GINA; no obstante, diversos estudios han mostrado varios factores relacionados con riesgo de exacerbaciones, entre ellos: síntomas no controlados, uso excesivo de salbutamol (tres o más inhaladores al año), antecedente de una o más exacerbaciones en el último año, baja función pulmonar (VEF1), mala adherencia y/o uso incorrecto del dispositivo, tabaquismo, obesidad, sinusitis crónica, eosinofilia en sangre, óxido nítrico exhalado (FeNO) elevado y antecedente por exacerbación de asma; los factores relacionados con riesgo de obstrucción fija incluyen: no empleo de esteroide inhalado, tabaquismo, bronquitis crónica y eosinofilia en sangre; los factores asociados a efectos adversos del tratamiento reportados son: uso frecuente de esteroides orales (tres o más ciclos) y dosis altas de esteroide inhalado (beclometasona más 1000mcg/día) (1-3). 
+				
+				h3 Gravedad
+				
+				p Hace referencia al nivel o intensidad del tratamiento requerido para mantener el control de la enfermedad; así como el control, debe evaluarse siempre en cada consulta del paciente y dependiendo de este puede continuar igual, aumentar o disminuir (1-3).
+				
+				p De tal forma, como se trató en el módulo anterior, la necesidad de pasos uno o dos de tratamiento para mantener el control se denomina asma leve, la necesidad de paso tres hace referencia a asma moderada, y asma grave implicaría el requerimiento de pasos cuatro o cinco para lograr el control (1-3).
+				
+				//- Acordion
+				div.accordion#accordion2
+					div.accordion-group
+						div.accordion-heading
+							a.accordion-toggle.collapsed(data-toggle='collapse' data-parent='#accordion1' href='#collapse3')
+								span Asma no controlada
+						div#collapse3.accordion-body.collapse.in
+							div.accordion-inner
+								p la GINA establece que la presencia de al menos uno de los siguientes criterios clasificaría al paciente con enfermedad no controlada (1-3):
+								
+								ul
+									li Pobre control de síntomas: ACT &lt;20
+									li Exacerbaciones frecuentes: 2 o más ciclos de esteroides sistémicos por al menos tres días en el año previo.
+									li Exacerbaciones graves: hospitalización, necesidad de cuidado intensivo o ventilación no invasiva o mecánica en el año previo. 
+									li Limitación al flujo aéreo: espirometría con VEF1 pre-broncodilatador por debajo del 80% del predicho.
+								
+					div.accordion-group
+						div.accordion-heading
+							a.accordion-toggle.collapsed(data-toggle='collapse' data-parent='#accordion1' href='#collapse4')
+								span Asma de difícil tratamiento
+						div#collapse4.accordion-body.collapse
+							div.accordion-inner
+								p Es el concepto más reciente dado a conocer por GINA en la guía publicada a finales del 2018; hace referencia al paciente con asma en pasos cuatro o cinco de tratamiento (empleo de combinación de esteroide inhalado y beta-agonista de larga acción en dosis media-alta, o de esteroide sistémico) en quien la enfermedad no está controlada o, a pesar del control, no es posible disminuir la intensidad del tratamiento (2). 
+
+								p Diversos estudios muestran que dichos pacientes deben ser evaluados de forma sistemática y multidimensional, idealmente en una clínica de asma, con el fin de reducir la carga de este grupo de pacientes (4,5).
+								
+					div.accordion-group
+						div.accordion-heading
+							a.accordion-toggle.collapsed(data-toggle='collapse' data-parent='#accordion1' href='#collapse5')
+								span Asma Grave
+						div#collapse5.accordion-body.collapse
+							div.accordion-inner
+								p Hace referencia al paciente con asma de difícil tratamiento, quien después de haber pasado por una evaluación sistemática y multidimensional por al menos tres meses aún presenta no control a pesar de pasos 4 o 5 de tratamiento o su enfermedad está controlada y no es posible disminuir la intensidad de tratamiento debido a la pérdida de control; así mismo, incluye a los pacientes con alta intensidad de tratamiento en quienes las comorbilidades no están completamente tratadas (2,3).
+				
+				div.progres
+					div.span12
+						h2 Módulo 3 / <span>Progreso</span>
+						
+				div
+					div.span12#progreso20
+					
+				div.material-modulo.wow.fadeInUp
+					div#material03
+					ul.pager
+						li.previous
+							a(href='https://ubosquemoodle.unbosque.edu.co/mod/page/view.php?id=285919') Anterior
+						li.next
+							a(href='https://ubosquemoodle.unbosque.edu.co/mod/page/view.php?id=285921') Siguiente
+							
+
+//- Final part of body
+//- Page transitions js
+include ../includes/js-body-ends.jade
+		
+		
+			

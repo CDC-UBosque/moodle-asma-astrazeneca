@@ -20,46 +20,23 @@
 				
 				.accordion-heading{
 					
-					.accordion-toggle{
+					.accordion-toggle,
+					.accordion-toggle[aria-expanded="true"],
+					.accordion-toggle.collapsed[aria-expanded="true"]{
 						
-						background: $color_principal;
-						border: 1px solid $color_principal;
-						color: $color_white;
-						font-family: $font_myr_semibold;
-						
-						&:hover{
-							background: $color_principal;
-							color: $color_white;
-						}
-						
-						&:before{
-							display: none;
-						}
-						
-						&:after{
-							content: "";
-							background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/up-white.svg);
-							background-repeat: no-repeat;
-							background-position: center;
-							background-size: 11px;
-							position: absolute;
-							width: 1rem;
-							height: 1.8rem;
-						    top: 0.2rem;
-						    right: 0.5rem;
-						}
-						
-					}
-					
-					.accordion-toggle.collapsed{
 						background: $color_white;
-						border: 1px solid $color_principal;
+						border: 1px solid $color_platinum;
 						color: $color_text;
 						font-family: $font_myr_semibold;
 						
 						&:hover{
-							background: $color_principal;
+							background: $color_platinum;
 							color: $color_white;
+							
+							&:after{
+								
+							}
+							
 						}
 						
 						&:before{
@@ -67,16 +44,58 @@
 						}
 						
 						&:after{
-							content: "";
-							background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/down.svg);
-							background-repeat: no-repeat;
-							background-position: center;
-							background-size: 11px;
+							content: "Ver menos";
+							//background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/up-white.svg);
+							//background-repeat: no-repeat;
+							//background-position: center;
+							//background-size: 11px;
 							position: absolute;
-							width: 1rem;
+							width: 6rem;
 							height: 1.8rem;
-						    top: 0.2rem;
+						    top: 0.6rem;
 						    right: 0.5rem;
+						    @include Label-2 ();
+						    color: $color_text;
+						}
+						
+					}
+					
+					.accordion-toggle.collapsed,
+					.accordion-toggle[aria-expanded="false"],
+					.accordion-toggle.collapsed[aria-expanded="false"]{
+						background: $color_platinum;
+						border: 1px solid $color_white;
+						color: $color_white;
+						font-family: $font_myr_semibold;
+						
+						&:hover{
+							background: $color_white;
+							color: $color_text;
+							border: 1px solid $color_platinum;
+							
+							 &:after{
+								 color: $color_text;
+							 }
+							 
+						}
+						
+						&:before{
+							display: none;
+						}
+						
+						&:after{
+							content: "Ver más";
+							//background: url(https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/svg/down.svg);
+							//background-repeat: no-repeat;
+							//background-position: center;
+							//background-size: 11px;
+							position: absolute;
+							width: 6rem;
+							height: 1.8rem;
+						    top: 0.6rem;
+						    right: 0.5rem;
+						    @include Label-2 ();
+						    color: $color_white;
 						}
 						
 					}
@@ -91,6 +110,21 @@
 						padding: 2rem;
 					}
 					
+				}
+				
+				.accordion-body.show{
+					height: auto;
+					@include prefix(transition, height 0.35s ease, webkit moz o);
+				}
+				
+				.accordion-body.in.collapse{
+					height: 0 !important;
+					@include prefix(transition, height 0.35s ease, webkit moz o);
+				}
+				
+				.accordion-body.in.collapse.show{
+					height: auto !important;
+					@include prefix(transition, height 0.35s ease, webkit moz o);
 				}
 				
 			}

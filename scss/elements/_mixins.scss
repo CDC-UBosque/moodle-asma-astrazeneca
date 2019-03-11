@@ -64,31 +64,42 @@
 // --------------------------------------------------- //
 
 @mixin links{
-	
-	color: $color-rojo-rad;
+	@include Body-tables ();
+	font-weight: 600;
+	color: $color_interaction;
 	position: relative;
 	transition: all .1s ease-in-out;
 	text-decoration: none;
 	overflow: hidden;
-	display: inline-block;
-	font-size: 13px;
 	
-	&:after{
+	&:before{
+		height: .25rem;
+		bottom: -.25rem;
+		content: '';
 		position: absolute;
-		content: "";
-		background: $color-rojo-rad;
-		width: 70%;
-		left: -100%;
-		top: 50%;
-		height: 2px;
-		transition: all .5s ease-in-out;
-		visibility: hidden;		
+		width: 100%;
+		left: 0;
+		background-color: $color_interaction;
+		opacity: 0;
+		visibility: hidden;
+		@include prefix(transform, scaleX(0), webkit ms);
+		transition: all .15s ease-out;
+	}
+	
+	&:hover{
+			
+		&:before{
+			opacity: 1;
+			visibility: visible;
+			@include prefix(transform, scaleX(1), webkit ms);
+		}
+		
 	}
 	
 	&:hover{
 		
 		text-decoration: none;
-		color: $color-rojo-rad;
+		color: $color_interaction;
 		
 		&:after{
 		    width: 70%;

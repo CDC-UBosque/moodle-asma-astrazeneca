@@ -64,6 +64,13 @@ body{
 	}
 }
 
+.curso-cc,
+#region-main .curso-cc{
+	.hidden{
+		display: none;
+	}
+}
+
 //ocultar barra izquierda
 #page-mod-page-view,
 #page-course-view-topics{

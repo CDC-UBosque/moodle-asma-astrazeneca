@@ -15,6 +15,12 @@
 		.content-cc{
 			//padding-bottom: 2rem;
 			
+			.programas_info{
+				@include max-width;
+				@include display-flex;
+				clear: both;
+			}
+			
 			ol,
 			ul{
 				@include max-width;
