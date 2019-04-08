@@ -9,17 +9,19 @@
 		
 		.bs-docs{
 			max-width: 817px;
-			margin: auto;
+			margin: 1rem auto;
 		}
 		
-		.nav-tabs{
+		ul.nav-tabs{
 
-			margin: 1.9rem 0 .5rem;
+			margin: 1.9rem 0 0;
+			padding: 0;
 			border: none;
 			
 			li{
 				
 				list-style-type: none;
+				padding-bottom: 0;
 				
 				a{
 					border: 1px solid $color_principal;
@@ -50,8 +52,19 @@
 		
 		.tab-content{
 			@include prefix(border-radius, 0px, webkit moz);
-			padding: 2rem;
-			border-bottom: 1px solid $color_dark_blue;
+			border-bottom: 1px solid $color_platinum;
+			border-top: 1px solid $color_platinum;
+			
+			.tab-pane{
+				padding: 1rem;
+			}
+			
+			.active,
+			.show{
+			    background: transparentize($color_platinum, 0.7);
+			    height: auto;
+			}
+			
 		}
 		
 	}

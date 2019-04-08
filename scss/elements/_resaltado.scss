@@ -9,7 +9,7 @@
 		
 		.resaltado-txt{
 			max-width: 710px;
-		    margin: auto;
+		    margin: 2rem auto;
 		    float: none;
 		    background: $color_platinum;
 		    box-sizing: border-box;
@@ -21,6 +21,9 @@
 			    color: $color_white;
 		    }
 		    
+		    span{
+			    display: block;
+		    }
 		    
 		    p{
 			    @include Heading-2 ();
