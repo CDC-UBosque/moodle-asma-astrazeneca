@@ -34,4 +34,36 @@
 		opacity: 1;
 	}
 	
+	.popover{
+		border: 0;
+		-webkit-background-clip: content-box;
+		-moz-background-clip: content;
+		background-clip: content-box;
+		
+		.arrow{
+			border-top-color: $color_text;
+			bottom: -10px;
+			&:after{
+				border-top-color: $color_text;
+			}
+		}
+		
+		.popover-title{
+			display: none;
+		}
+		
+		.popover-content{
+			background: $color_text;
+			max-width: 25rem;
+			@include Body-copy ();
+			color: $color_white;
+			@include prefix(border-radius, 0px, webkit moz);
+			padding: 2rem;
+		    box-shadow: 0px 0px 30px rgba(0,0,0,0.8);
+			font-size: 15px;
+			line-height: 21px;
+		}
+		
+	}
+	
 }

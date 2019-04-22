@@ -24,6 +24,7 @@
 					.accordion-toggle[aria-expanded="true"],
 					.accordion-toggle.collapsed[aria-expanded="true"]{
 						
+						padding-right: 7rem;
 						background: $color_white;
 						border: 1px solid $color_platinum;
 						color: $color_text;
@@ -63,6 +64,7 @@
 					.accordion-toggle.collapsed,
 					.accordion-toggle[aria-expanded="false"],
 					.accordion-toggle.collapsed[aria-expanded="false"]{
+						padding-right: 7rem;
 						background: $color_platinum;
 						border: 1px solid $color_white;
 						color: $color_white;
