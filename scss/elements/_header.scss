@@ -7,7 +7,7 @@
 	
 	header{
 		background: none;
-		position: sticky;
+		//position: sticky;
 		top: 0;
 		z-index: 9;
 		//position: relative;
@@ -34,7 +34,7 @@
 		
 		.menu-asma{
 			@include display-flex;
-			position: sticky;
+			//position: sticky;
 			z-index: 9999;
 			top: 0;
 			
@@ -117,6 +117,29 @@
 												
 										}
 										
+										&:nth-child(2){
+											
+											.dropdown-menu{
+												
+												li{
+													
+													&:nth-last-child(-1n+2){
+														a{
+															background: transparentize($color_white, 0.1);
+															color: $color_text !important;
+															
+															&:hover{
+																background: transparentize($color_white, 0.3);
+															}
+														}
+													}
+													
+												}
+												
+											}
+											
+										}
+										
 										a{
 											box-sizing: border-box;
 											@include Menu-links ();
@@ -176,6 +199,17 @@
 													
 												}
 												
+												&:nth-last-child(-1n+2){
+													a{
+														background: $color_interaction;
+														color: $color_white !important;
+														
+														&:hover{
+															background: transparentize($color_interaction, 0.4);
+														}
+													}
+												}
+												
 												a{
 													
 													&:after{
@@ -207,6 +241,7 @@
 														&:before{
 															display: block;
 														}
+														
 													}
 													
 												}
