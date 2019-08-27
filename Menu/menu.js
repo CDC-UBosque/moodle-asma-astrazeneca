@@ -25,6 +25,10 @@ $('#mod0-1').html('<div class="mod-0"><div><h1>Módulo 0</h1><h1>Lineamientos</h
 //
 $('#mod1-1').html('<div class="mod-1"><div><h1>Módulo 1</h1><h1>Prevención Primaria</h1></div></div>');
 
+// Mod 1 - peru -----------------
+//
+$('#mod1-1-peru').html('<div class="mod-1"><div><h1>Módulo 1</h1><h1>Prevención Primaria</h1></div></div>');
+
 // Mod 2 -----------------
 //
 $('#mod2-1').html('<div class="mod-2"><div><h1>Módulo 2</h1><h1>Prevención Secundaria</h1></div></div>');
@@ -82,6 +86,9 @@ $('#legal-mod-04').html('<p class="small legal"> <sup>1 </sup>Longitudinalidad: 
 //
 // Modulo 01
 $('#material01').html('<div> <h1>Material <span>del módulo en progreso</span></h1></div><ul class="thumbnails"> <li class="span4"> <div class="thumbnail"> <img src="https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/mod1/material01.jpg"> <div class="caption"> <p>Módulo 1 prevención primaria en asma</p><a href="https://ubosquemoodle.unbosque.edu.co/mod/page/view.php?id=281724">Ver Documento </a> </div></div></li></ul>');
+
+// Modulo 01 peru
+$('#material01-peru').html('<div> <h1>Material <span>del módulo en progreso</span></h1></div><ul class="thumbnails"> <li class="span4"> <div class="thumbnail"> <img src="https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/mod1-peru/material01.jpg"> <div class="caption"> <p>Módulo 1 prevención primaria en asma</p><a href="https://ubosquemoodle.unbosque.edu.co/mod/page/view.php?id=307633">Ver Documento </a> </div></div></li></ul>');
 
 // Modulo 02
 $('#material02').html('<div> <h1>Material <span>del módulo en progreso</span></h1></div><ul class="thumbnails"> <li class="span4"> <div class="thumbnail"> <img src="https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/mod2/material02.jpg"> <div class="caption"> <p>Módulo 2 prevención secundaria</p><a href="https://ubosquemoodle.unbosque.edu.co/mod/page/view.php?id=282649">Ver Documento </a> </div></div></li> <li class="span4"> <div class="thumbnail"> <img src="https://ubosquemoodle.unbosque.edu.co/diseno/cursos/asma-astrazenca/img/mod2/material01.jpg"> <div class="caption"> <p>Módulo 2 casos clínicos</p><a href="https://ubosquemoodle.unbosque.edu.co/mod/page/view.php?id=282650">Ver Documento </a> </div></div></li></ul>');
